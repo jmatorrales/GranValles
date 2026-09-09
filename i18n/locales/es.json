@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Bienvenido a Gran Vallès",
+    "subtitle": "Tu inmobiliaria de confianza"
+  },
+  "contact": {
+    "phone": "Teléfono",
+    "email": "Correo"
+  }
+}

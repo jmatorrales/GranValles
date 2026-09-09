@@ -73,3 +73,5 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+FIGMA: [text](https://www.figma.com/design/StmP1cR7A23mVSzCluNd1A/Gran-Valles?node-id=0-1&p=f)
