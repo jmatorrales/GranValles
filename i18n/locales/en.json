@@ -1,15 +1,22 @@
 {
+  "seo": {
+    "default": {
+      "title": "Gran Vallès - In-Home Caregivers in Barcelona",
+      "description": "Home healthcare service"
+    }
+  },
   "nav": {
     "home": "Home",
-    "services": "Services",
-    "contact": "Contact"
-  },
-  "home": {
-    "title": "Welcome to Gran Vallès",
-    "subtitle": "Your trusted real estate agency"
-  },
-  "contact": {
-    "phone": "Phone",
-    "email": "Email"
+    "services": {
+      "title": "Services",
+      "advice": "Advice",
+      "staffSelection": "Staff selection",
+      "caregiverTypes": "Caregiver types",
+      "followUp": "Follow-up and cover",
+      "bringCaregiver": "Bring your caregiver"
+    },
+    "dependency": "Dependency assistance",
+    "contact": "Contact",
+    "info": "Request information"
   }
 }

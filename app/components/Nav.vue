@@ -1,29 +1,158 @@
 <script setup>
-import { Phone } from '@lucide/vue'
-const { locale, locales, setLocale } = useI18n()
+import { Phone, Globe, Menu, X, ChevronDown } from '@lucide/vue'
+const { locale, locales, setLocale, t } = useI18n()
+
+const mobileOpen = ref(false)
+const servicesOpen = ref(false)
+const navRef = ref(null)
+
+const serviceKeys = ['advice', 'staffSelection', 'caregiverTypes', 'followUp', 'bringCaregiver']
+
+const services = computed(() =>
+  serviceKeys.map(key => ({ key, label: t(`nav.services.${key}`) }))
+)
+
+const availableLocales = computed(() =>
+  locales.value.filter(l => l.code !== locale.value)
+)
+
+// 👇 Toggle separado, con .stop en el template
+const toggleMobile = () => {
+  mobileOpen.value = !mobileOpen.value
+}
+
+const changeLocale = (code) => {
+  setLocale(code)
+  closeMobile()
+}
+
+const closeMobile = () => {
+  mobileOpen.value = false
+  servicesOpen.value = false
+}
+
+// 👇 Solo cierra; el botón hamburguesa nunca llega aquí por el .stop
+const handleClickOutside = (e) => {
+  if (mobileOpen.value && navRef.value && !navRef.value.contains(e.target)) {
+    closeMobile()
+  }
+}
+
+onMounted(() => document.addEventListener('click', handleClickOutside))
+onBeforeUnmount(() => document.removeEventListener('click', handleClickOutside))
 </script>
+
 <template>
-  <nav class="flex flex-row p-5 items-center justify-between bg-white sticky top-0 shadow-sm z-50">
-    <!-- logo empresa -->
-    <NuxtLink to="/" class="w-2/5">
-      <img src="/logogva2.jpeg" alt="Logo Gran Vallès" />
-    </NuxtLink>
-    <div class="flex gap-10">
-      <NuxtLink to="/">{{ $t('nav.home') }}</NuxtLink>
-      <!-- to="/servicios" -->
-      <NuxtLink to="/">{{ $t('nav.services') }}</NuxtLink>
-      <NuxtLink to="/">{{ $t('nav.contact') }}</NuxtLink>
+  <nav ref="navRef" class="sticky top-0 z-50 bg-white shadow-sm">
+    <div class="flex items-center justify-between p-4 md:p-5 gap-4">
+
+      <!-- 👇 Logo: como antes, algo menor en móvil -->
+      <NuxtLink to="/" class="shrink-0 w-[35vh] md:w-[50vh]" @click="closeMobile">
+        <img src="/logogva2.jpeg" alt="Logo Gran Vallès" class="w-full h-auto" />
+      </NuxtLink>
+
+      <!-- ===== ESCRITORIO ===== -->
+      <div class="hidden md:flex gap-10">
+        <NuxtLink to="/" class="hover:text-blue-600 transition-colors">{{ $t('nav.home') }}</NuxtLink>
+
+        <div class="relative group">
+          <NuxtLink to="/services" class="hover:text-blue-600 transition-colors">
+            {{ $t('nav.services.title') }}
+          </NuxtLink>
+          <div class="absolute invisible opacity-0 group-hover:visible group-hover:opacity-100
+                      transition-all duration-200 flex flex-col bg-white shadow-lg rounded-md
+                      p-2 top-full left-0 mt-1 min-w-[240px] border border-gray-100 z-50">
+            <NuxtLink v-for="service in services" :key="service.key"
+              :to="`/servicios/${service.key}`"
+              class="py-2 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors whitespace-nowrap">
+              {{ service.label }}
+            </NuxtLink>
+          </div>
+        </div>
+
+        <NuxtLink to="/" class="hover:text-blue-600 transition-colors">{{ $t('nav.dependency') }}</NuxtLink>
+        <NuxtLink to="/" class="hover:text-blue-600 transition-colors">{{ $t('nav.contact') }}</NuxtLink>
+      </div>
+
+      <div class="hidden md:flex gap-10 items-center">
+        <a href="tel:+34937261011"
+          class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 flex gap-2">
+          <Phone /> 937261011
+        </a>
+        <p class="bg-blue-500 text-white border border-blue-700 px-4 py-2 rounded flex">{{ $t('nav.info') }}</p>
+
+        <div class="relative group">
+          <button class="flex items-center gap-2 px-3 py-2 rounded border border-gray-300
+                         hover:bg-gray-50 transition-colors">
+            <Globe class="w-4 h-4" />
+            {{ locale.toUpperCase() }}
+          </button>
+          <div class="absolute invisible opacity-0 group-hover:visible group-hover:opacity-100
+                      transition-all duration-200 flex flex-col bg-white shadow-lg rounded-md
+                      p-2 top-full right-0 mt-1 min-w-[120px] border border-gray-100">
+            <button v-for="l in availableLocales" :key="l.code"
+              @click="setLocale(l.code)"
+              class="text-left py-2 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors">
+              {{ l.name }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 👇 .stop evita que el toggle choque con el listener de fuera -->
+      <button class="md:hidden p-2 shrink-0" @click.stop="toggleMobile" aria-label="Menú">
+        <X v-if="mobileOpen" class="w-6 h-6" />
+        <Menu v-else class="w-6 h-6" />
+      </button>
     </div>
-    <div class="flex gap-10">
-      <a href="tel:+34937261011" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 flex gap-2">
-        <Phone /> 937261011
-      </a>
-      <p class="bg-blue-500 text-white border border-blue-700 px-4 py-2 rouded flex">Solicita información</p>
-      <select :value="locale" @change="setLocale($event.target.value)">
-        <option v-for="l in locales" :key="l.code" :value="l.code">
-          {{ l.name }}
-        </option>
-      </select>
+
+    <!-- ===== MÓVIL: panel ===== -->
+    <div v-if="mobileOpen" class="md:hidden border-t border-gray-200 bg-white">
+      <div class="flex flex-col p-4 gap-1">
+
+        <NuxtLink to="/" @click="closeMobile"
+          class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors">
+          {{ $t('nav.home') }}
+        </NuxtLink>
+
+        <button @click="servicesOpen = !servicesOpen"
+          class="flex items-center justify-between py-3 px-3 rounded hover:bg-blue-50 transition-colors">
+          {{ $t('nav.services.title') }}
+          <ChevronDown class="w-4 h-4 transition-transform duration-200"
+            :class="{ 'rotate-180': servicesOpen }" />
+        </button>
+        <div v-if="servicesOpen" class="flex flex-col pl-4 border-l-2 border-blue-100 ml-3">
+          <NuxtLink v-for="service in services" :key="service.key"
+            :to="`/servicios/${service.key}`" @click="closeMobile"
+            class="py-2 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors">
+            {{ service.label }}
+          </NuxtLink>
+        </div>
+
+        <NuxtLink to="/" @click="closeMobile"
+          class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors">
+          {{ $t('nav.dependency') }}
+        </NuxtLink>
+        <NuxtLink to="/" @click="closeMobile"
+          class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors">
+          {{ $t('nav.contact') }}
+        </NuxtLink>
+
+        <a href="tel:+34937261011"
+          class="mt-3 bg-blue-600 text-white px-4 py-3 rounded flex gap-2 justify-center">
+          <Phone /> 937261011
+        </a>
+
+        <div class="flex gap-2 mt-3 justify-center">
+          <button v-for="l in availableLocales" :key="l.code"
+            @click="changeLocale(l.code)"
+            class="flex items-center gap-2 px-4 py-2 rounded border border-gray-300
+                   hover:bg-blue-50 hover:text-blue-700 transition-colors">
+            <Globe class="w-4 h-4" />
+            {{ l.name }}
+          </button>
+        </div>
+      </div>
     </div>
   </nav>
 </template>
