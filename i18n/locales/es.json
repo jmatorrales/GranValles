@@ -13,9 +13,9 @@
       "staffSelection": "Selección de personal",
       "caregiverTypes": "Tipos de cuidador",
       "followUp": "Seguimiento y suplencias",
+      "dependency": "Ayuda a la dependencia",
       "bringCaregiver": "Trae a tu cuidador/a"
     },
-    "dependency": "Ayuda a la dependencia",
     "contact": "Contacto",
     "info": "Solicita información"
   }

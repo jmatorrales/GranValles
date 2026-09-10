@@ -13,9 +13,9 @@
       "staffSelection": "Staff selection",
       "caregiverTypes": "Caregiver types",
       "followUp": "Follow-up and cover",
+      "dependency": "Dependency assistance",
       "bringCaregiver": "Bring your caregiver"
     },
-    "dependency": "Dependency assistance",
     "contact": "Contact",
     "info": "Request information"
   }

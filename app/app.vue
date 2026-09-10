@@ -5,14 +5,14 @@
     title: t('seo.default.title'),
     description: t('seo.default.description')
   })
-
-  console.log('TITLE:', t('seo.default.title'))
 </script>
 <template>
-  <div>
+  <div class="flex flex-col min-h-screen">
     <!-- anuncia los cambios de ruta a lectores de pantalla. -->
     <NuxtRouteAnnouncer />
     <Nav />
-    <NuxtPage />
+    <main class="flex-1">
+      <NuxtPage />
+    </main>
   </div>
 </template>
