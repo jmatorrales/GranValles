@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/i18n'],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/image'],
   app: {
     head: {
       title: 'Gran Vallès | Cuidadores a domicilio en Barcelona',
@@ -25,6 +25,6 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', file: 'en.json' }
     ],
     defaultLocale: 'ca',
-    langDir: 'locales/'
+    langDir: './'
   }
 })

@@ -142,13 +142,8 @@ onBeforeUnmount(() => document.removeEventListener('click', handleClickOutside))
         <!-- <NuxtLink to="/" @click="closeMobile"
           class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors">
           {{ $t('nav.dependency') }}
-<<<<<<< HEAD
-        </NuxtLink>
-        <NuxtLink to="/contact" @click="closeMobile"
-=======
         </NuxtLink> -->
         <NuxtLink to="/" @click="closeMobile"
->>>>>>> 13a57fc3b1dc4e0ca58444ee2333a06162f35393
           class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors">
           {{ $t('nav.contact') }}
         </NuxtLink>
