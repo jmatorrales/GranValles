@@ -22,10 +22,39 @@
     </div>
 
     <!-- Formulario solicitud de información -->
-    <div class="h-[70vh] bg-blue-800">
+    <div class="h-[70vh] bg-blue-950">
       <p class="text-center text-white text-3xl p-8">Solicita información</p>
-      <div>
-        
+
+      <div class="h-[50vh] flex justify-center items-center">
+        <div class="w-1/2 bg-blue-100 rounded-lg p-8">
+          <form @submit.prevent="sendForm" class="flex flex-col gap-2 bg-gray-200">
+            <!-- Nombre -->
+            <label for="name" class="flex flex-col">
+              {{ $t('home.form.name') }}*
+              <input v-model="form.nombre" type="text" class="rounded-lg" required>
+            </label>
+            <div class="flex flex-row gap-3">
+              <!-- Telefono -->
+              <label class="flex flex-col gap-2" for="phone">
+                {{ $t('home.form.phone') }}*
+                <input v-model="form.phone" type="tel" maxlength="14" class="rounded-lg" required>
+              </label>
+              <!-- Mail -->
+              <label class="flex flex-col gap-2" for="email">
+                {{ $t('home.form.mail') }}
+                <input v-model="form.email" type="email" placeholder="Email" class="rounded-lg">
+              </label>
+            </div>
+              <label for="privacy">
+                <input type="checkbox" v-model="form.condiciones" name="condiciones">
+                {{ $t('home.form.privacy') }}
+              </label>
+            <button type="submit" :disabled="enviando">
+              {{ enviando ? 'Enviando...' : 'Enviar' }}
+            </button>
+          </form>
+        </div>
+
       </div>
     </div>
     <!--  -->
@@ -36,4 +65,27 @@
 </template>
 
 <script setup>
+const form = reactive({
+  nombre: '',
+  email: '',
+  mensaje: ''
+})
+
+const enviando = ref(false)
+const enviado = ref(false)
+
+async function sendForm() {
+  enviando.value = true
+  try {
+    await $fetch('/api/contacto', {
+      method: 'POST',
+      body: form
+    })
+    enviado.value = true
+  } catch (e) {
+    console.error(e)
+  } finally {
+    enviando.value = false
+  }
+}
 </script>

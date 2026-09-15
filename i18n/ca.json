@@ -27,7 +27,6 @@
       "name": "Nom",
       "phone": "Telèfon",
       "mail": "Correu electrònic",
-      "urgent": "Urgent",
       "privacy": "Acepto la politica de privadesa",
       "send": "Enviar"
     },
@@ -39,5 +38,244 @@
   },
   "service":{
     
+  },
+  "privacy": {
+    "title": "Política de privacitat",
+    "seo": {
+      "title": "Política de privacitat | Gran Vallès",
+      "description": "Informació sobre el tractament de dades personals de GRAN VALLÈS ASSISTENCIAL, S.L."
+    },
+    "summary": {
+      "title": "Informació bàsica sobre Protecció de Dades",
+      "rows": [
+        {
+          "label": "Responsable",
+          "items": [
+            "GRAN VALLÈS ASSISTENCIAL, S.L."
+          ]
+        },
+        {
+          "label": "Finalitat",
+          "items": [
+            "Prestació de serveis online",
+            "Gestió de usuaris web",
+            "Comunicacions comercials relacionades amb els nostres serveis"
+          ]
+        },
+        {
+          "label": "Legitimació",
+          "items": [
+            "Consentiment exprés e interès legítim"
+          ]
+        },
+        {
+          "label": "Destinatari",
+          "items": [
+            "No es cedeixen dades a tercers, excepte obligació legal"
+          ]
+        },
+        {
+          "label": "Drets",
+          "items": [
+            "Accedir, rectificar i suprimir les dades, així com altres drets, com s'explica a la informació addicional"
+          ]
+        },
+        {
+          "label": "Informació addicional",
+          "items": [
+            "Pot consultar la informació addicional i detallada sobre Protecció de Dades a les clàusules annexes que es troben a www.granvalles.es/politica-privacitat"
+          ]
+        }
+      ]
+    },
+    "intro": {
+      "paragraphs": [
+        "A GRAN VALLÈS ASSISTENCIAL, S.L. treballem per oferir-te a través dels nostres productes i serveis la millor experiència possible. En alguns casos, és necessari recollir la informació per a aconseguir-ho. Ens importa la teva privacitat i creiem que hem de ser transparents al respecte.",
+        "Per això, i a efectes del previst al REGLAMENT (UE) 2016/679 DEL PARLAMENT EUROPEU I DEL CONSELL de 27 d'abril de 2016 (en endavant, «RGPD») relatiu a la protecció de les persones físiques en el que respecta al tractament de dades personals i a la lliure circulació d'aquestes dades, i la LLEI 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (en endavant, «LSSI»), GRAN VALLÈS ASSISTENCIAL, S.L. informa a l'usuari que, com responsable del tractament, incorporarà les dades de caràcter personal facilitades pels usuaris en un fitxer automatitzat."
+      ],
+      "commitmentTitle": "El nostre compromís comença per explicar-te el següent:",
+      "commitments": [
+        "Es recullen les teves dades perquè l'experiència d'usuari millori, atenent els teus interessos i necessitats.",
+        "Som transparents amb relació a les dades que obtenim sobre tu i la raó perquè ho fem.",
+        "La nostra intenció és oferir-te la millor experiència possible. Per això, quan utilitzem la teva informació personal ho farem sempre complint la normativa, i quan sigui necessari, sol·licitarem el teu consentiment.",
+        "Entenem que les teves dades et pertanyen. Per tant, si decideixes no autoritzar-nos a processar-les pots sol·licitar que deixem de tractar-les.",
+        "La nostra prioritat consisteix a garantir la teva seguretat i tractar les teves dades d'acord amb la normativa europea."
+      ],
+      "closing": "Si desitges obtenir més informació sobre el tractament de les teves dades, consulta els diferents apartats de la política de privacitat que es troben a continuació:"
+    },
+    "sections": [
+      {
+        "id": "responsable",
+        "heading": "Qui és el responsable del tractament de les seves dades personals?",
+        "paragraphs": [],
+        "list": [
+          "Identitat: GRAN VALLÈS ASSISTENCIAL, S.L.",
+          "Domicili social: C/ RIEGO 69",
+          "C.I.F. nº: B64313570",
+          "Email: info@granvalles.es"
+        ],
+        "after": [
+          "GRAN VALLÈS ASSISTENCIAL, S.L. ha designat un Delegat de Protecció de Dades o una persona de contacte interna dins de la seva organització. Si desitges fer una consulta amb relació al tractament de les teves dades personals, pots posar-te en contacte amb ell mitjançant el correu info@granvalles.es"
+        ]
+      },
+      {
+        "id": "dades-recollides",
+        "heading": "Quines dades personals recopilem?",
+        "paragraphs": [
+          "Les dades personals que l'usuari pot arribar a proporcionar:"
+        ],
+        "list": [
+          "Nom, direcció i data de naixement.",
+          "Número de telèfon i adreça de correu electrònic.",
+          "Ubicació.",
+          "Informació relativa a pagaments i devolucions.",
+          "Adreça IP, data i hora en la que has accedit als nostres serveis, navegador d'internet que utilitzis i dades sobre el sistema operatiu del dispositiu.",
+          "Qualsevol altra informació o dades que decideixis compartir amb nosaltres."
+        ],
+        "after": [
+          "En alguns casos, és obligatòria la complementació del formulari de registre per accedir i gaudir de determinats serveis oferts a la web; així mateix, no facilitar les dades personals sol·licitades o el no acceptar la present política de protecció de dades suposa la impossibilitat de subscriure's, registrar-se o participar en qualsevol de les promocions en les quals es sol·licitin dades de caràcter personal."
+        ]
+      },
+      {
+        "id": "finalitats",
+        "heading": "Per què i per a què tractem les teves dades?",
+        "paragraphs": [
+          "A GRAN VALLÈS ASSISTENCIAL, S.L. tractem la informació que ens faciliten les persones interessades amb les següents finalitats:"
+        ],
+        "list": [
+          "Gestionar comandes o contractar algun dels nostres serveis, sigui online o a les tendes físiques.",
+          "Gestionar l'enviament de la informació que ens sol·licitin.",
+          "Desenvolupar accions comercials i realitzar el manteniment i gestió de la relació amb l'usuari, així com la gestió dels serveis oferts a través del lloc web i les tasques d'informació, podent realitzar valoracions automàtiques, obtenció de perfils i tasques de segmentació dels clients amb l'objecte de personalitzar el tractament conforme a les seves característiques i necessitats i millorar l'experiència en línia del client.",
+          "Desenvolupar i gestionar els concursos, sortejos o altres activitats promocionals que es puguin organitzar.",
+          "En alguns casos serà necessari facilitar informació a les Autoritats o terceres empreses per motius d'auditoria, així com manejar dades personals de factures, contractes i documents per respondre a reclamacions de clients o de les Administracions Públiques.",
+          "Informem que les dades personals que s'obtinguin com a conseqüència del teu registre com a usuari formaran part del Registre d'Activitats i operacions de Tractament (RAT), que s'actualitzarà periòdicament d'acord amb l'establert al RGPD."
+        ],
+        "after": []
+      },
+      {
+        "id": "legitimacio",
+        "heading": "Quina és la legitimació pel tractament de les teves dades?",
+        "paragraphs": [
+          "El tractament de les teves dades pot fonamentar-se en les següents bases legals:"
+        ],
+        "list": [
+          "Consentiment de l'interessat per a la contractació de serveis i productes, pels formularis de contacte, les sol·licituds d'informació o alta a e-newsletters.",
+          "Interès legítim pel tractament de dades dels nostres clients en accions de màrqueting directe i consentiment exprés de l'interessat per tot el relatiu a les valoracions automàtiques i elaboració de perfils.",
+          "Compliment d'obligacions legals per prevenció del frau, comunicació amb Autoritats públiques i reclamacions de tercers."
+        ],
+        "after": []
+      },
+      {
+        "id": "conservacio",
+        "heading": "Quant temps conservem les teves dades?",
+        "paragraphs": [
+          "El tractament de les dades amb les finalitats descrites es mantindrà durant el temps necessari per complir amb la finalitat de la seva recollida (per exemple, mentre duri la relació comercial), així com pel compliment de les obligacions legals que es derivin del tractament de les dades."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "destinataris",
+        "heading": "A quins destinataris es comuniquen les teves dades?",
+        "paragraphs": [
+          "En alguns casos, només quan sigui necessari, GRAN VALLÈS ASSISTENCIAL, S.L. proporcionarà dades dels usuaris a tercers. No obstant això, mai es vendran les dades a tercers. Els proveïdors de serveis externs (per exemple, proveïdors de pagament o empreses de repartiment amb els que GRAN VALLÈS ASSISTENCIAL, S.L. treballi poden utilitzar les dades per proporcionar els serveis corresponents, sens perjudici d'això, no utilitzaran la informació per finalitats pròpies o per cessió a tercers.",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. procura garantir la seguretat de les dades personals quan s'envien fora de l'empresa i s'assegura que els tercers proveïdors del servei respectin la confidencialitat i compten amb les mesures adequades per protegir les dades personals. Aquests tercers tenen l'obligació de garantir que la informació es tracta conforme amb la normativa de privacitat de dades.",
+          "En alguns casos, la llei pot exigir que es revelin dades personals a organismes públics o altres parts, només es revelarà el estrictament necessari per al compliment d'aquestes obligacions legals.",
+          "Les dades personals obtingudes també podran ser compartides amb altres empreses del grup."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "emmagatzematge",
+        "heading": "On s'emmagatzemen les teves dades?",
+        "paragraphs": [
+          "Amb caràcter general, les dades s'emmagatzemen dins de la UE. Les dades que s'envien a tercers que no pertanyen a la UE, ens assegurarem que ofereixin un nivell de protecció suficient, ja sigui perquè compten amb Normes Corporatives Vinculants (BCR) o perquè s'hagin adherit al \"Privacy Shield\"."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "drets",
+        "heading": "Quins drets t'assisteixen i com pots exercir-los?",
+        "paragraphs": [
+          "Pots dirigir les teves comunicacions i exercir els teus drets mitjançant una petició en el següent correu electrònic: info@granvalles.es.",
+          "En virtut del que estableix l'RGPD pots sol·licitar:"
+        ],
+        "list": [
+          "Dret d'accés: pots demanar informació d'aquelles dades personals que disposem sobre tu.",
+          "Dret de rectificació: pots comunicar qualsevol canvi en les teves dades personals.",
+          "Dret de supressió i a l'oblit: pots sol·licitar l'eliminació previ bloqueig de les dades personals.",
+          "Dret de limitació al tractament: suposa la restricció del tractament de les dades personals.",
+          "Dret d'oposició: pots retirar el consentiment del tractament de les dades, oposant-te al fet que se segueixin tractant.",
+          "Dret a la portabilitat: en alguns casos, pots demanar una còpia de les dades personals en un format estructurat, d'ús comú i lectura mecànica per la seva transmissió a un altre responsable.",
+          "Dret a no ser objecte de decisions individualitzades: pots sol·licitar que no es prenguin decisions que es basin únicament en el tractament automatitzant, incloent-hi l'elaboració de perfils, que produeixi efectes jurídics o afecti significativament a l'interessat."
+        ],
+        "after": [
+          "En alguns casos, es podrà rebutjar la sol·licitud si sol·licites que s'eliminin dades necessàries per al compliment d'obligacions legals.",
+          "Així mateix, si tens alguna queixa sobre el tractament de les dades pots presentar una reclamació de l'autoritat de protecció de dades."
+        ]
+      },
+      {
+        "id": "veracitat",
+        "heading": "Qui és el responsable de l'exactitud i veracitat de les dades facilitades?",
+        "paragraphs": [
+          "L'usuari és l'únic responsable de la veracitat i correcció de les dades incloses, exonerant a GRAN VALLÈS ASSISTENCIAL, S.L. de qualsevol responsabilitat al respecte. Els usuaris garanteixen i responen, en qualsevol cas, de l'exactitud, vigència i autenticitat de les dades personals facilitades, i es comprometen a mantenir-les degudament actualitzades. L'usuari accepta proporcionar informació completa i correcta en el formulari de registre o subscripció. GRAN VALLÈS ASSISTENCIAL, S.L. es reserva el dret de finalitzar els serveis contractats que s'haguessin celebrat amb els usuaris, en cas que les dades que hagi facilitat siguin falses, incompletes inexactes o no estiguin actualitzades.",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. no respon de la veracitat de les informacions que no siguin d'elaboració pròpia i de les que s'indiqui altra font, per la qual cosa tampoc assumeix cap responsabilitat pel que fa a hipotètics perjudicis que poguessin originar-se per l'ús d'aquesta informació.",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. es reserva el dret a actualitzar, modificar o eliminar la informació continguda en les seves pàgines web podent inclús limitar o no permetre l'accés a aquesta informació. S'exonera a GRAN VALLÈS ASSISTENCIAL, S.L. de responsabilitat enfront a qualsevol dany o perjudici que pogués sofrir l'usuari com a conseqüència d'errors, defectes o omissions, en la informació facilitada per GRAN VALLÈS ASSISTENCIAL, S.L. sempre que procedeixi de fonts alienes a aquesta.",
+          "Així mateix, l'usuari certifica que és més gran de 14 anys i que posseeix la capacitat legal necessària per la prestació del consentiment respecte al tractament de les seves dades de caràcter personal."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "menors",
+        "heading": "Com tractem les dades personals dels menors d'edat?",
+        "paragraphs": [
+          "En principi els nostres serveis no van dirigits específicament a menors d'edat. No obstant això, en el cas que algun d'ells es dirigeixi a menors de catorze anys, de conformitat amb l'article 8 del RGPD i l'article 7 de la LO 3/2018, de 5 de desembre (LOPDGDD), GRAN VALLÈS ASSISTENCIAL, S.L. exigirà el consentiment vàlid, lliure, inequívoc, específic i informat dels tutors legals per tractar les dades personals dels menors. En aquest cas, s'exigirà el DNI o altra forma d'identificació de qui presti el consentiment.",
+          "En el cas de majors de catorze anys podrà procedir-se al tractament de les dades amb el consentiment de l'usuari, exceptuant aquells casos en els quals la Llei exigeixi l'assistència dels titulars de la pàtria potestat o tutela."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "seguretat",
+        "heading": "Quines mesures de seguretat apliquem per protegir les teves dades personals?",
+        "paragraphs": [
+          "GRAN VALLÈS ASSISTENCIAL, S.L. ha adoptat els nivells de seguretat de protecció de les dades personals legalment requerits, i procura instal·lar aquells altres mitjans i mesures tècniques addicionals al seu abast per evitar la pèrdua, mal ús, alteració, accés no autoritzat i robatori de les dades personals facilitades a GRAN VALLÈS ASSISTENCIAL, S.L..",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. no és responsable d'hipotètics danys o perjudicis que es poguessin derivar d'interferències, omissions, interrupcions, virus informàtics, avaries telefòniques o desconnexions en el funcionament operatiu d'aquest sistema electrònic, motivades per causes alienes a GRAN VALLÈS ASSISTENCIAL, S.L.; de retards o bloquejos en l'ús del present sistema electrònic causats per deficiències o sobrecàrregues de línies telefòniques o sobrecàrregues en el Centre de Processos de Dades, en el sistema d'Internet o en altres sistemes electrònics, així com de danys que puguin ser causats per terceres persones mitjançant intromissions il·legítimes fora del control de GRAN VALLÈS ASSISTENCIAL, S.L.. Això no obstant, l'usuari ha de ser conscient que les mesures de seguretat a Internet no són inexpugnables."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "enllacos",
+        "heading": "Enllaços a altres llocs web",
+        "paragraphs": [
+          "En el lloc web www.granvalles.es pot haver-hi enllaços a altres pàgines web. Al clicar en un d'aquests enllaços i accedir a un lloc web extern, la visita estarà subjecta a la política de privacitat d'aquell lloc web, quedant GRAN VALLÈS ASSISTENCIAL, S.L. desvinculada de qualsevol classe de responsabilitat sobre la seva política de privacitat."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "cookies",
+        "heading": "Com utilitzem les cookies?",
+        "paragraphs": [
+          "El lloc web de GRAN VALLÈS ASSISTENCIAL, S.L. utilitza cookies, als efectes d'optimitzar i personalitzar la seva navegació pel mateix. Les cookies són fitxers físics d'informació que s'allotgen en el terminal de l'usuari, la informació recollida mitjançant les cookies serveix per facilitar la navegació de l'usuari pel portal i optimitzar l'experiència de navegació. Les dades recopilades mitjançant les cookies poden ser compartides amb els creadors d'aquestes, però en cap cas la informació obtinguda per les mateixes serà associada a dades personals ni a dades que puguin identificar a l'usuari.",
+          "No obstant això, si l'usuari no desitja que s'instal·lin cookies en el seu disc dur, té la possibilitat de configurar el navegador de tal manera que impedeixi la instal·lació d'aquests arxius. Per obtenir més informació consulti la nostra Política de Cookies www.granvalles.es/cookies."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "modificacions",
+        "heading": "Pot modificar-se la política de privacitat?",
+        "paragraphs": [
+          "Aquesta política de privacitat pot modificar-se. Et recomanem que revisis la política de privacitat amb certa periodicitat."
+        ],
+        "list": [],
+        "after": []
+      }
+    ]
   }
 }
