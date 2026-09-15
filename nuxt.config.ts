@@ -20,9 +20,9 @@ export default defineNuxtConfig({
   },
   i18n: {
     locales: [
-      { code: 'ca', name: 'Català', file: 'ca.json' },
-      { code: 'es', name: 'Español', file: 'es.json' },
-      { code: 'en', name: 'English', file: 'en.json' }
+      { code: 'ca', name: 'Català', files:['ca/home_ca.json', 'ca/privacy_ca.json'] },
+      { code: 'es', name: 'Español', files: ['es/home_es.json', 'es/privacy_es.json'] },
+      { code: 'en', name: 'English', files: ['en/home_en.json', 'en/privacy_en.json'] }
     ],
     defaultLocale: 'ca',
     langDir: './'

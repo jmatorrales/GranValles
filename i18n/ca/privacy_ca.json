@@ -1,45 +1,5 @@
 {
-  "seo": {
-    "default": {
-      "title": "Gran Vallès - Cuidadors a domicili a Barcelona",
-      "description": "Servei d'atenció sanitària a domicili"
-    }
-  },
-  "nav": {
-    "home": "Inici",
-    "services": {
-      "title": "Serveis",
-      "advice": "Assessorament",
-      "staffSelection": "Selecció de personal",
-      "caregiverTypes": "Tipus de cuidador",
-      "followUp": "Seguiment i suplències",
-      "dependency": "Ajuda a la dependència",
-      "bringCaregiver": "Porta el teu cuidador/a"
-    },
-    "contact": "Contacte",
-    "info": "Sol·licita informació"
-  },
-  "home":{
-    "msg_welcome": "20 anys al teu costat\ncuidant dels teus",
-    "msg_welcome_sub": "A Gran Vallès oferim acompanyament i cura amb tracte proper i una atenció profesional.",
-    "form": {
-      "title": "Solicita informació",
-      "name": "Nom",
-      "phone": "Telèfon",
-      "mail": "Correu electrònic",
-      "privacy": "Acepto la politica de privadesa",
-      "send": "Enviar"
-    },
-    "infoOffice": {
-      "infoPhone": "Truca'ns als",
-      "timetableTitle": "Horari d'atenció en dies laborables",
-      "timetableTxt": "De 8:00 h a 13:30 h\nDe 15:00 h a 19:00 h"
-    }
-  },
-  "service":{
-    
-  },
-  "privacy": {
+    "privacy": {
     "title": "Política de privacitat",
     "seo": {
       "title": "Política de privacitat | Gran Vallès",
@@ -112,10 +72,10 @@
           "Identitat: GRAN VALLÈS ASSISTENCIAL, S.L.",
           "Domicili social: C/ RIEGO 69",
           "C.I.F. nº: B64313570",
-          "Email: info@granvalles.es"
+          "Email: info{'@'}granvalles.es"
         ],
         "after": [
-          "GRAN VALLÈS ASSISTENCIAL, S.L. ha designat un Delegat de Protecció de Dades o una persona de contacte interna dins de la seva organització. Si desitges fer una consulta amb relació al tractament de les teves dades personals, pots posar-te en contacte amb ell mitjançant el correu info@granvalles.es"
+          "GRAN VALLÈS ASSISTENCIAL, S.L. ha designat un Delegat de Protecció de Dades o una persona de contacte interna dins de la seva organització. Si desitges fer una consulta amb relació al tractament de les teves dades personals, pots posar-te en contacte amb ell mitjançant el correu info{'@'}granvalles.es"
         ]
       },
       {
@@ -199,7 +159,7 @@
         "id": "drets",
         "heading": "Quins drets t'assisteixen i com pots exercir-los?",
         "paragraphs": [
-          "Pots dirigir les teves comunicacions i exercir els teus drets mitjançant una petició en el següent correu electrònic: info@granvalles.es.",
+          "Pots dirigir les teves comunicacions i exercir els teus drets mitjançant una petició en el següent correu electrònic: info{'@'}granvalles.es.",
           "En virtut del que estableix l'RGPD pots sol·licitar:"
         ],
         "list": [

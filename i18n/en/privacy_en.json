@@ -1,0 +1,241 @@
+{
+  "privacy": {
+    "title": "Privacy Policy",
+    "seo": {
+      "title": "Privacy Policy | Gran Vallès",
+      "description": "Information on the processing of personal data by GRAN VALLÈS ASSISTENCIAL, S.L."
+    },
+    "summary": {
+      "title": "Basic Data Protection Information",
+      "rows": [
+        {
+          "label": "Data Controller",
+          "items": [
+            "GRAN VALLÈS ASSISTENCIAL, S.L."
+          ]
+        },
+        {
+          "label": "Purpose",
+          "items": [
+            "Provision of online services",
+            "Web user management",
+            "Commercial communications related to our services"
+          ]
+        },
+        {
+          "label": "Legal Basis",
+          "items": [
+            "Express consent and legitimate interest"
+          ]
+        },
+        {
+          "label": "Recipients",
+          "items": [
+            "Data is not shared with third parties, except where legally required"
+          ]
+        },
+        {
+          "label": "Rights",
+          "items": [
+            "Access, rectify, and delete data, as well as other rights, as explained in the additional information"
+          ]
+        },
+        {
+          "label": "Additional Information",
+          "items": [
+            "You can consult the additional and detailed information on Data Protection in the attached clauses found at www.granvalles.es/politica-privacidad"
+          ]
+        }
+      ]
+    },
+    "intro": {
+      "paragraphs": [
+        "At GRAN VALLÈS ASSISTENCIAL, S.L. we work to offer you the best possible experience through our products and services. In some cases, it is necessary to collect information in order to achieve this. Your privacy matters to us and we believe we should be transparent about it.",
+        "Therefore, and for the purposes set out in REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 (hereinafter, \"GDPR\") regarding the protection of individuals with respect to the processing of personal data and the free movement of such data, and LAW 34/2002, of 11 July, on Information Society Services and Electronic Commerce (hereinafter, \"LSSI\"), GRAN VALLÈS ASSISTENCIAL, S.L. informs users that, as data controller, it will incorporate the personal data provided by users into an automated file."
+      ],
+      "commitmentTitle": "Our commitment begins by explaining the following to you:",
+      "commitments": [
+        "Your data is collected to improve the user experience, taking your interests and needs into account.",
+        "We are transparent regarding the data we obtain about you and the reason we do so.",
+        "Our intention is to offer you the best possible experience. Therefore, whenever we use your personal information we will always do so in compliance with regulations and, when necessary, we will request your consent.",
+        "We understand that your data belongs to you. Therefore, if you decide not to authorize us to process it, you may request that we stop processing it.",
+        "Our priority is to guarantee your security and to process your data in accordance with European regulations."
+      ],
+      "closing": "If you would like more information about the processing of your data, please consult the different sections of the privacy policy below:"
+    },
+    "sections": [
+      {
+        "id": "responsable",
+        "heading": "Who is responsible for the processing of your personal data?",
+        "paragraphs": [],
+        "list": [
+          "Identity: GRAN VALLÈS ASSISTENCIAL, S.L.",
+          "Registered office: C/ RIEGO 69",
+          "Tax ID (C.I.F.) no.: B64313570",
+          "Email: info{'@'}granvalles.es"
+        ],
+        "after": [
+          "GRAN VALLÈS ASSISTENCIAL, S.L. has appointed a Data Protection Officer or an internal contact person within its organization. If you wish to make an inquiry regarding the processing of your personal data, you can contact them by email at info{'@'}granvalles.es"
+        ]
+      },
+      {
+        "id": "dades-recollides",
+        "heading": "What personal data do we collect?",
+        "paragraphs": [
+          "The personal data that the user may provide:"
+        ],
+        "list": [
+          "Name, address, and date of birth.",
+          "Telephone number and email address.",
+          "Location.",
+          "Information related to payments and refunds.",
+          "IP address, date and time you accessed our services, the internet browser you use, and data about your device's operating system.",
+          "Any other information or data you decide to share with us."
+        ],
+        "after": [
+          "In some cases, completing the registration form is mandatory in order to access and enjoy certain services offered on the website; likewise, failure to provide the requested personal data or failure to accept this data protection policy makes it impossible to subscribe, register, or participate in any promotions requiring personal data."
+        ]
+      },
+      {
+        "id": "finalitats",
+        "heading": "Why and for what purposes do we process your data?",
+        "paragraphs": [
+          "At GRAN VALLÈS ASSISTENCIAL, S.L. we process the information provided by data subjects for the following purposes:"
+        ],
+        "list": [
+          "Managing orders or contracting any of our services, whether online or in physical stores.",
+          "Managing the sending of information requested by users.",
+          "Developing commercial actions and carrying out the maintenance and management of the relationship with the user, as well as the management of the services offered through the website and information tasks, which may include automated evaluations, profiling, and customer segmentation in order to personalize processing according to their characteristics and needs and improve the customer's online experience.",
+          "Developing and managing contests, sweepstakes, or other promotional activities that may be organized.",
+          "In some cases it will be necessary to provide information to Authorities or third-party companies for audit purposes, as well as to handle personal data from invoices, contracts, and documents in order to respond to claims from customers or Public Administrations.",
+          "We inform you that the personal data obtained as a result of your registration as a user will form part of the Record of Processing Activities (RAT), which will be updated periodically in accordance with the provisions of the GDPR."
+        ],
+        "after": []
+      },
+      {
+        "id": "legitimacio",
+        "heading": "What is the legal basis for processing your data?",
+        "paragraphs": [
+          "The processing of your data may be based on the following legal grounds:"
+        ],
+        "list": [
+          "Consent of the data subject for the contracting of services and products, through contact forms, requests for information, or newsletter sign-ups.",
+          "Legitimate interest in processing our customers' data for direct marketing actions, and express consent of the data subject for everything related to automated evaluations and profiling.",
+          "Compliance with legal obligations for fraud prevention, communication with Public Authorities, and third-party claims."
+        ],
+        "after": []
+      },
+      {
+        "id": "conservacio",
+        "heading": "How long do we keep your data?",
+        "paragraphs": [
+          "The processing of data for the purposes described will be maintained for as long as necessary to fulfill the purpose for which it was collected (for example, for the duration of the business relationship), as well as to comply with the legal obligations arising from the processing of the data."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "destinataris",
+        "heading": "To which recipients is your data disclosed?",
+        "paragraphs": [
+          "In some cases, only when necessary, GRAN VALLÈS ASSISTENCIAL, S.L. will provide user data to third parties. However, data will never be sold to third parties. External service providers (for example, payment providers or delivery companies that GRAN VALLÈS ASSISTENCIAL, S.L. works with) may use the data to provide the corresponding services; notwithstanding this, they will not use the information for their own purposes or transfer it to third parties.",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. seeks to guarantee the security of personal data when it is sent outside the company and ensures that third-party service providers respect confidentiality and have adequate measures in place to protect personal data. These third parties are obligated to ensure that the information is processed in accordance with data privacy regulations.",
+          "In some cases, the law may require personal data to be disclosed to public bodies or other parties; only what is strictly necessary to comply with these legal obligations will be disclosed.",
+          "The personal data obtained may also be shared with other companies within the group."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "emmagatzematge",
+        "heading": "Where is your data stored?",
+        "paragraphs": [
+          "In general, data is stored within the EU. Regarding data sent to third parties outside the EU, we will ensure that they offer a sufficient level of protection, either because they have Binding Corporate Rules (BCR) or because they have adhered to the \"Privacy Shield\"."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "drets",
+        "heading": "What rights do you have and how can you exercise them?",
+        "paragraphs": [
+          "You can direct your communications and exercise your rights by sending a request to the following email address: info{'@'}granvalles.es.",
+          "Under the GDPR you may request:"
+        ],
+        "list": [
+          "Right of access: you can request information about the personal data we hold about you.",
+          "Right of rectification: you can report any changes to your personal data.",
+          "Right of erasure and to be forgotten: you can request the deletion, following prior blocking, of your personal data.",
+          "Right to restriction of processing: this involves restricting the processing of personal data.",
+          "Right to object: you can withdraw consent for data processing, objecting to its continued processing.",
+          "Right to data portability: in some cases, you can request a copy of your personal data in a structured, commonly used, and machine-readable format for transmission to another controller.",
+          "Right not to be subject to individualized decisions: you can request that no decisions be made based solely on automated processing, including profiling, that produce legal effects concerning you or significantly affect you in a similar way."
+        ],
+        "after": [
+          "In some cases, the request may be rejected if you ask for the deletion of data that is necessary to comply with legal obligations.",
+          "Likewise, if you have any complaint about the processing of the data, you can file a claim with the data protection authority."
+        ]
+      },
+      {
+        "id": "veracitat",
+        "heading": "Who is responsible for the accuracy and truthfulness of the data provided?",
+        "paragraphs": [
+          "The user is solely responsible for the truthfulness and accuracy of the data provided, exempting GRAN VALLÈS ASSISTENCIAL, S.L. from any liability in this regard. Users guarantee and are responsible, in any case, for the accuracy, currency, and authenticity of the personal data provided, and undertake to keep it duly updated. The user agrees to provide complete and correct information on the registration or subscription form. GRAN VALLÈS ASSISTENCIAL, S.L. reserves the right to terminate the contracted services entered into with users in the event that the data provided is false, incomplete, inaccurate, or not up to date.",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. is not responsible for the accuracy of information that is not its own and for which another source is indicated, and therefore assumes no liability for any damages that may arise from the use of this information.",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. reserves the right to update, modify, or delete the information contained on its web pages, and may even limit or deny access to this information. GRAN VALLÈS ASSISTENCIAL, S.L. is exempt from liability for any damage or harm that the user may suffer as a result of errors, defects, or omissions in the information provided by GRAN VALLÈS ASSISTENCIAL, S.L., provided that it comes from sources external to the company.",
+          "Likewise, the user certifies that they are over 14 years of age and possess the legal capacity necessary to give consent regarding the processing of their personal data."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "menors",
+        "heading": "How do we process the personal data of minors?",
+        "paragraphs": [
+          "In principle, our services are not specifically aimed at minors. However, in the event that any of them are aimed at minors under fourteen years of age, in accordance with Article 8 of the GDPR and Article 7 of Organic Law 3/2018, of 5 December (LOPDGDD), GRAN VALLÈS ASSISTENCIAL, S.L. will require the valid, free, unambiguous, specific, and informed consent of legal guardians to process the personal data of minors. In this case, the ID card or other form of identification of the person giving consent will be required.",
+          "In the case of minors over fourteen years of age, data may be processed with the user's consent, except in cases where the Law requires the assistance of holders of parental authority or guardianship."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "seguretat",
+        "heading": "What security measures do we apply to protect your personal data?",
+        "paragraphs": [
+          "GRAN VALLÈS ASSISTENCIAL, S.L. has adopted the legally required levels of security for the protection of personal data, and seeks to install any other additional technical means and measures within its reach to prevent the loss, misuse, alteration, unauthorized access, and theft of the personal data provided to GRAN VALLÈS ASSISTENCIAL, S.L.",
+          "GRAN VALLÈS ASSISTENCIAL, S.L. is not responsible for any damages that may arise from interference, omissions, interruptions, computer viruses, telephone breakdowns, or disconnections in the operation of this electronic system caused by reasons beyond the control of GRAN VALLÈS ASSISTENCIAL, S.L.; nor from delays or blockages in the use of this electronic system caused by deficiencies or overloads of telephone lines or overloads in the Data Processing Center, the Internet system, or other electronic systems, nor from damages that may be caused by third parties through unlawful interference beyond the control of GRAN VALLÈS ASSISTENCIAL, S.L. However, the user must be aware that security measures on the Internet are not impregnable."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "enllacos",
+        "heading": "Links to other websites",
+        "paragraphs": [
+          "On the website www.granvalles.es there may be links to other websites. By clicking on one of these links and accessing an external website, your visit will be subject to the privacy policy of that website, and GRAN VALLÈS ASSISTENCIAL, S.L. is released from any liability regarding its privacy policy."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "cookies",
+        "heading": "How do we use cookies?",
+        "paragraphs": [
+          "The GRAN VALLÈS ASSISTENCIAL, S.L. website uses cookies to optimize and personalize your browsing experience. Cookies are physical information files stored on the user's device; the information collected through cookies is used to facilitate the user's navigation through the portal and optimize the browsing experience. Data collected through cookies may be shared with their creators, but under no circumstances will the information obtained through them be associated with personal data or data that could identify the user.",
+          "However, if the user does not wish for cookies to be installed on their hard drive, they can configure their browser to prevent the installation of these files. For more information, please see our Cookie Policy at www.granvalles.es/cookies."
+        ],
+        "list": [],
+        "after": []
+      },
+      {
+        "id": "modificacions",
+        "heading": "Can the privacy policy be modified?",
+        "paragraphs": [
+          "This privacy policy may be modified. We recommend that you review the privacy policy periodically."
+        ],
+        "list": [],
+        "after": []
+      }
+    ]
+  }
+}

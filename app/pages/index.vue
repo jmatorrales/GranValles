@@ -28,28 +28,38 @@
       <div class="h-[50vh] flex justify-center items-center">
         <div class="w-1/2 bg-blue-100 rounded-lg p-8">
           <form @submit.prevent="sendForm" class="flex flex-col gap-2 bg-gray-200">
-            <!-- Nombre -->
-            <label for="name" class="flex flex-col">
-              {{ $t('home.form.name') }}*
-              <input v-model="form.nombre" type="text" class="rounded-lg" required>
-            </label>
-            <div class="flex flex-row gap-3">
-              <!-- Telefono -->
-              <label class="flex flex-col gap-2" for="phone">
-                {{ $t('home.form.phone') }}*
-                <input v-model="form.phone" type="tel" maxlength="14" class="rounded-lg" required>
+            <!-- Datos del cliente -->
+            <div class="flex flex-col gap-3">
+              <!-- Nombre -->
+              <label for="name" class="flex flex-col">
+                {{ $t('home.form.name') }}*
+                <input v-model="form.nombre" type="text" class="rounded-lg" required>
               </label>
-              <!-- Mail -->
-              <label class="flex flex-col gap-2" for="email">
-                {{ $t('home.form.mail') }}
-                <input v-model="form.email" type="email" placeholder="Email" class="rounded-lg">
-              </label>
+              <!-- Telefono y mail -->
+              <div class="flex flex-row gap-3">
+                <!-- Telefono -->
+                <label class="flex flex-col gap-2" for="phone">
+                  {{ $t('home.form.phone') }}*
+                  <input v-model="form.phone" type="tel" maxlength="14" class="rounded-lg" required>
+                </label>
+                <!-- Mail -->
+                <label class="flex flex-col gap-2" for="email">
+                  {{ $t('home.form.mail') }}
+                  <input v-model="form.email" type="email" placeholder="Email" class="rounded-lg">
+                </label>
+              </div>
             </div>
-              <label for="privacy">
-                <input type="checkbox" v-model="form.condiciones" name="condiciones">
-                {{ $t('home.form.privacy') }}
-              </label>
-            <button type="submit" :disabled="enviando">
+            <!-- checkbox privacidad -->
+            <label for="privacy" class="flex gap-3">
+              <input type="checkbox" v-model="form.condiciones" name="condiciones">
+              <i18n-t keypath="home.form.privacy" tag="span">
+                <template #link>
+                  <NuxtLink to="/privacy" class="underline hover:text-blue-500">{{ $t('home.form.privacyLink') }}
+                  </NuxtLink>
+                </template>
+              </i18n-t>
+            </label>
+            <button type="submit" :disabled="enviando" class="p-2 rounded-lg bg-cyan-700">
               {{ enviando ? 'Enviando...' : 'Enviar' }}
             </button>
           </form>
