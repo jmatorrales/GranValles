@@ -19,9 +19,9 @@
     "contact": "Contacte",
     "info": "Sol·licita informació"
   },
-  "home":{
-    "msg_welcome": "20 anys al teu costat\ncuidant dels teus",
-    "msg_welcome_sub": "A Gran Vallès oferim acompanyament i cura amb tracte proper i una atenció profesional.",
+  "home": {
+    "welcomeMessage": "20 anys al teu costat\ncuidant dels teus",
+    "welcomeSubtitle": "A Gran Vallès oferim acompanyament i cura amb tracte proper i una atenció profesional.",
     "form": {
       "title": "Solicita informació",
       "name": "Nom",
@@ -29,11 +29,12 @@
       "mail": "Correu electrònic",
       "privacy": "Acepto la {link}",
       "privacyLink": "politica de privadesa",
-      "send": "Enviar"
+      "send": "Enviar",
+      "sending": "Enviant..."
     },
     "infoOffice": {
       "infoPhone": "Truca'ns als",
-      "timetableTitle": "Horari d'atenció en dies laborables",
+      "timetableTitle": "Horari d'atenció de dilluns a divendres excepte festius",
       "timetableTxt": "De 8:00 h a 13:30 h\nDe 15:00 h a 19:00 h"
     }
   }

@@ -48,8 +48,8 @@ onBeforeUnmount(() => document.removeEventListener('click', handleClickOutside))
     <!-- Barra superior -->
     <div class="flex items-center justify-between gap-4 px-4 sm:px-6 lg:px-8 py-4">
 
-      <!-- Logo: más grande en todas las pantallas -->
-      <NuxtLink to="/" class="shrink-0 w-40 sm:w-48 md:w-56 lg:w-64" @click="closeMobile">
+      <!-- Logo -->
+      <NuxtLink to="/" class="shrink-0 w-40 sm:w-48 md:w-56 lg:w-[28rem]" @click="closeMobile">
         <img src="/logogva2.jpeg" alt="Logo Gran Vallès" class="w-full h-auto" />
       </NuxtLink>
 
