@@ -54,7 +54,7 @@
             <!-- checkbox privacidad -->
             <label class="flex gap-3">
               <input type="checkbox" v-model="form.condiciones" name="condiciones"
-              class="w-5 h-5 checked:bg-blue-950">
+              class="w-5 h-5 checked:bg-blue-950" required>
               <span>
                 <i18n-t keypath="home.form.privacy" tag="span">
                   <template #link>
@@ -98,8 +98,8 @@
 <script setup>
 const form = reactive({
   nombre: '',
-  email: '',
-  mensaje: ''
+  phone: '',
+  email: ''
 })
 
 const enviando = ref(false)
@@ -108,7 +108,7 @@ const enviado = ref(false)
 async function sendForm() {
   enviando.value = true
   try {
-    await $fetch('/api/contacto', {
+    await $fetch('/api/form', {
       method: 'POST',
       body: form
     })

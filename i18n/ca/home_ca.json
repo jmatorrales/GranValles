@@ -23,7 +23,7 @@
     "welcomeMessage": "20 anys al teu costat\ncuidant dels teus",
     "welcomeSubtitle": "A Gran Vallès oferim acompanyament i cura amb tracte proper i una atenció profesional.",
     "form": {
-      "title": "Solicita informació",
+      "title": "Sol·licita informació",
       "name": "Nom",
       "phone": "Telèfon",
       "mail": "Correu electrònic",
@@ -33,9 +33,7 @@
       "sending": "Enviant..."
     },
     "infoOffice": {
-      "infoPhone": "Truca'ns als",
-      "timetableTitle": "Horari d'atenció de dilluns a divendres excepte festius",
-      "timetableTxt": "De 8:00 h a 13:30 h\nDe 15:00 h a 19:00 h"
+      "infoPhone": "Truca'ns"
     }
   }
 }
