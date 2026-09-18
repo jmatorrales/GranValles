@@ -46,15 +46,26 @@
                 <label class="flex flex-col gap-2 flex-1">
                   {{ $t('home.form.mail') }}
                   <!-- placeholder ahora traducido -->
-                  <input v-model="form.email" type="email"
-                    class="rounded-lg w-full py-1">
+                  <input v-model="form.email" type="email" class="rounded-lg w-full py-1">
+                </label>
+              </div>
+              <!-- Comentario -->
+              <div>
+                <label class="flex flex-col">
+                  <p>{{ $t('home.form.comments') }}</p>
+                  <textarea v-model="form.comments" rows="4" maxlength="280"
+                    class="rounded-lg py-1 px-2 resize-none"></textarea>
+                  <span class="text-sm self-end"
+                    :class="form.comments.length >= 280 ? 'text-red-500' : 'text-gray-500'">
+                    {{ form.comments.length }}/280
+                  </span>
                 </label>
               </div>
             </div>
             <!-- checkbox privacidad -->
             <label class="flex gap-3">
-              <input type="checkbox" v-model="form.condiciones" name="condiciones"
-              class="w-5 h-5 checked:bg-blue-950" required>
+              <input type="checkbox" v-model="form.condiciones" name="condiciones" class="w-5 h-5 checked:bg-blue-950"
+                required>
               <span>
                 <i18n-t keypath="home.form.privacy" tag="span">
                   <template #link>
@@ -79,12 +90,6 @@
             <p class="text-2xl">{{ $t('home.infoOffice.infoPhone') }}</p>
             <p class="text-3xl text-blue-600">93 726 10 11</p>
           </div>
-          <hr class="my-4 border-blue-700">
-          <div>
-            <p class="text-2xl text-blue-900">{{ $t('home.infoOffice.timetableTitle') }}</p>
-            <!-- "text-ml" no existe, cambiado por text-base -->
-            <p class="text-base whitespace-pre-line">{{ $t('home.infoOffice.timetableTxt') }}</p>
-          </div>
         </div>
       </div>
     </div>
@@ -99,7 +104,8 @@
 const form = reactive({
   nombre: '',
   phone: '',
-  email: ''
+  email: '',
+  comments: '',
 })
 
 const enviando = ref(false)

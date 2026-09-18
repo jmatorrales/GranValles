@@ -27,6 +27,7 @@
       "name": "Nom",
       "phone": "Telèfon",
       "mail": "Correu electrònic",
+      "comments": "Comentari",
       "privacy": "Acepto la {link}",
       "privacyLink": "politica de privadesa",
       "send": "Enviar",
