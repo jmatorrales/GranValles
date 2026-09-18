@@ -1,24 +1,4 @@
 {
-  "seo": {
-    "default": {
-      "title": "Gran Vallès - Cuidadors a domicili a Barcelona",
-      "description": "Servei d'atenció sanitària a domicili"
-    }
-  },
-  "nav": {
-    "home": "Inici",
-    "services": {
-      "title": "Serveis",
-      "advice": "Assessorament",
-      "staffSelection": "Selecció de personal",
-      "caregiverTypes": "Tipus de cuidador",
-      "followUp": "Seguiment i suplències",
-      "dependency": "Ajuda a la dependència",
-      "bringCaregiver": "Porta el teu cuidador/a"
-    },
-    "contact": "Contacte",
-    "info": "Sol·licita informació"
-  },
   "home": {
     "welcomeMessage": "20 anys al teu costat\ncuidant dels teus",
     "welcomeSubtitle": "A Gran Vallès oferim acompanyament i cura amb tracte proper i una atenció profesional.",
@@ -34,7 +14,9 @@
       "sending": "Enviant..."
     },
     "infoOffice": {
-      "infoPhone": "Truca'ns"
-    }
+      "callToAction": "¿Prefieres hablar con nosotros? Te atendemos encantados",
+      "schedule": "Lunes a viernes, de 9:00 a 19:00h"
+    },
+    "services": "Serveis d'atenció a domicili"
   }
 }

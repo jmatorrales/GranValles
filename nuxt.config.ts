@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/image'],
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/image', '@vueuse/nuxt'],
   app: {
     head: {
       title: 'Gran Vallès | Cuidadores a domicilio en Barcelona',
@@ -22,9 +22,9 @@ export default defineNuxtConfig({
   },
   i18n: {
     locales: [
-      { code: 'ca', name: 'Català', files:['ca/home_ca.json', 'ca/privacy_ca.json'] },
-      { code: 'es', name: 'Español', files: ['es/home_es.json', 'es/privacy_es.json'] },
-      { code: 'en', name: 'English', files: ['en/home_en.json', 'en/privacy_en.json'] }
+      { code: 'ca', name: 'Català', files:['ca/common_ca.json', 'ca/home_ca.json', 'ca/privacy_ca.json'] },
+      { code: 'es', name: 'Español', files: ['es/common_es.json', 'es/home_es.json', 'es/privacy_es.json'] },
+      { code: 'en', name: 'English', files: ['en/common_en.json', 'en/home_en.json', 'en/privacy_en.json'] }
     ],
     defaultLocale: 'ca',
     langDir: './'

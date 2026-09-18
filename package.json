@@ -17,6 +17,7 @@
     "@pinia/nuxt": "^1.0.2",
     "@vue-email/components": "^0.0.21",
     "@vue-email/render": "^0.0.9",
+    "@vueuse/nuxt": "^15.0.0",
     "nodemailer": "^10.0.10",
     "nuxt": "^4.5.2",
     "pinia": "^4.0.3",
