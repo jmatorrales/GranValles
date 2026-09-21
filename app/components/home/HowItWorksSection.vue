@@ -30,11 +30,11 @@
 const { t } = useI18n();
 
 const steps = [
-  { title: t("home.howItWorks.step1.title"), text: t("home.howItWorks.step1.text"), bg: "bg-blue-50 !text-slate-800" },
-  { title: t("home.howItWorks.step2.title"), text: t("home.howItWorks.step2.text"), bg: "bg-blue-100 !text-slate-800" },
-  { title: t("home.howItWorks.step3.title"), text: t("home.howItWorks.step3.text"), bg: "bg-blue-400 !text-slate-800" },
-  { title: t("home.howItWorks.step4.title"), text: t("home.howItWorks.step4.text"), bg: "bg-blue-700" },
-  { title: t("home.howItWorks.step5.title"), text: t("home.howItWorks.step5.text"), bg: "bg-blue-900" },
+  { title: t("home.howItWorks.steps.step1.title"), text: t("home.howItWorks.steps.step1.text"), bg: "bg-blue-50 !text-slate-800" },
+  { title: t("home.howItWorks.steps.step2.title"), text: t("home.howItWorks.steps.step2.text"), bg: "bg-blue-100 !text-slate-800" },
+  { title: t("home.howItWorks.steps.step3.title"), text: t("home.howItWorks.steps.step3.text"), bg: "bg-blue-400 !text-slate-800" },
+  { title: t("home.howItWorks.steps.step4.title"), text: t("home.howItWorks.steps.step4.text"), bg: "bg-blue-700" },
+  { title: t("home.howItWorks.steps.step5.title"), text: t("home.howItWorks.steps.step5.text"), bg: "bg-blue-900" },
 ];
 
 function clipPath(index) {

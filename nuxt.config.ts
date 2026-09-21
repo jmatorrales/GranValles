@@ -27,7 +27,8 @@ export default defineNuxtConfig({
       { code: 'en', name: 'English', files: ['en/common_en.json', 'en/home_en.json', 'en/privacy_en.json'] }
     ],
     defaultLocale: 'ca',
-    langDir: './'
+    langDir: './',
+    vueI18n: './i18n.config.ts'
   },
   nitro: {
     rollupConfig: {

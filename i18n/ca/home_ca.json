@@ -20,25 +20,27 @@
     "services": "Serveis d'atenció a domicili",
     "howItWorks": {
       "title": "Com funciona Gran Vallès?",
-      "step1": {
-        "title": "T'escoltem",
-        "text": "Escoltem atentament i entenem les teves necessitats."
-      },
-      "step2": {
-        "title": "Assessorem",
-        "text": "T'assessorem i decidim entre tots el millor servei per a la persona a cuidar."
-      },
-      "step3": {
-        "title": "Valorem",
-        "text": "Valorem en profunditat l'estat de la persona a cuidar un psicòleg o treballador social."
-      },
-      "step4": {
-        "title": "Seleccionem",
-        "text": "Junts seleccionarem el professional que millor encaixi amb la persona cuidada."
-      },
-      "step5": {
-        "title": "Gaudeix",
-        "text": "Iniciem el servei i fem un seguiment continu per assegurar la qualitat del servei."
+      "steps": {
+        "step1": {
+          "title": "T'escoltem",
+          "text": "Escoltem atentament i entenem les teves necessitats."
+        },
+        "step2": {
+          "title": "Assessorem",
+          "text": "T'assessorem i decidim entre tots el millor servei per a la persona a cuidar."
+        },
+        "step3": {
+          "title": "Valorem",
+          "text": "Valorem en profunditat l'estat de la persona a cuidar un psicòleg o treballador social."
+        },
+        "step4": {
+          "title": "Seleccionem",
+          "text": "Junts seleccionarem el professional que millor encaixi amb la persona cuidada."
+        },
+        "step5": {
+          "title": "Gaudeix",
+          "text": "Iniciem el servei i fem un seguiment continu per assegurar la qualitat del servei."
+        }
       }
     }
   }
