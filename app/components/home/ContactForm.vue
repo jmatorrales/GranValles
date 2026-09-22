@@ -1,27 +1,28 @@
 <template>
-  <div class="py-10 md:py-16 bg-blue-950">
+  <!-- Sección principal del formulario -->
+  <div class="w-full py-0 md:py-4 bg-blue-900">
     <p class="text-center text-white text-3xl md:text-4xl p-4 md:p-8">
       {{ $t("home.form.title") }}
     </p>
 
-    <!-- Contenedores individuales (Formulario num telefono) -->
-    <!-- En móvil: teléfono primero, formulario después -->
+    <!-- Contenedores individuales (Formulario / num telefono) -->
+    <!-- En móvil: teléfono primero, formulario después. Sin padding ni gap en móvil para ocupar todo el ancho -->
     <div
-      class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-10 px-6 md:px-20"
+      class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10 p-0 md:p-6 md:py-20"
     >
       <!-- Información atención oficina -->
       <div
-        class="order-1 md:order-2 bg-blue-100 px-8 py-6 rounded-lg text-center flex flex-col items-center gap-2 w-full md:w-auto max-w-sm"
+        class="order-1 md:order-2 bg-blue-50 px-8 py-6 rounded-none md:rounded-lg text-center flex flex-col items-center gap-2 w-full md:w-auto max-w-sm"
       >
-        <p class="text-xl font-semibold text-blue-950">
+        <p class="text-xl font-semibold text-blue-800">
           {{ $t("home.infoOffice.callToAction") }}
         </p>
-        <p class="text-3xl font-bold text-blue-600">93 726 10 11</p>
+        <p class="text-3xl font-bold text-blue-500">93 726 10 11</p>
       </div>
 
       <!-- Formulario -->
       <div
-        class="order-2 md:order-1 w-full md:w-auto flex justify-center items-center bg-blue-100 rounded-lg p-6 md:p-8"
+        class="order-2 md:order-1 w-full md:w-auto flex justify-center items-center bg-blue-50 rounded-none md:rounded-lg px-8 py-6 md:p-8"
       >
         <form @submit.prevent="sendForm" class="flex flex-col gap-5 w-full">
           <!-- Datos del cliente -->
@@ -92,7 +93,7 @@
               type="checkbox"
               v-model="form.condiciones"
               name="condiciones"
-              class="w-5 h-5 checked:bg-blue-950"
+              class="w-5 h-5 checked:bg-blue-900"
               required
             />
             <span>
@@ -110,7 +111,7 @@
           <button
             type="submit"
             :disabled="enviando"
-            class="p-2 rounded-lg bg-blue-950 text-white"
+            class="p-2 rounded-lg bg-blue-800 text-white"
           >
             {{ enviando ? $t("home.form.sending") : $t("home.form.send") }}
           </button>
@@ -129,7 +130,7 @@ const form = reactive({
 });
 
 const enviando = ref(false);
-const enviado = ref(false);
+const enviado = ref(false); // se usa como flag interno, pero no se muestra ningún mensaje de éxito en el template
 
 async function sendForm() {
   enviando.value = true;
@@ -143,4 +144,3 @@ async function sendForm() {
   }
 }
 </script>
-
