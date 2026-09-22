@@ -1,23 +1,47 @@
 {
-  "seo": {
-    "default": {
-      "title": "Gran Vallès - In-Home Caregivers in Barcelona",
-      "description": "Home healthcare service"
-    }
-  },
-  "nav": {
-    "home": "Home",
-    "services": {
-      "title": "Services",
-      "advice": "Advice",
-      "staffSelection": "Staff selection",
-      "caregiverTypes": "Caregiver types",
-      "followUp": "Follow-up and cover",
-      "dependency": "Dependency assistance",
-      "bringCaregiver": "Bring your caregiver"
+  "home": {
+    "welcomeMessage": "20 years by your side\ncaring for your loved ones",
+    "welcomeSubtitle": "At Gran Vallès we offer companionship and care with a personal touch and professional attention.",
+    "form": {
+      "title": "Request information",
+      "name": "Name",
+      "phone": "Phone",
+      "mail": "Email",
+      "comments": "Comment",
+      "privacy": "I accept the {link}",
+      "privacyLink": "privacy policy",
+      "send": "Send",
+      "sending": "Sending..."
     },
-    "contact": "Contact",
-    "info": "Request information"
-  },
-  "welcome":"welcome to Gran Vallès"
+    "infoOffice": {
+      "callToAction": "Prefer to talk to us? We'd be happy to help",
+      "schedule": "Monday to Friday, 9:00 AM to 7:00 PM"
+    },
+    "services": "Home care services",
+    "howItWorks": {
+      "title": "How does Gran Vallès work?",
+      "steps": {
+        "step1": {
+          "title": "We listen",
+          "text": "We listen carefully and understand your needs."
+        },
+        "step2": {
+          "title": "We advise",
+          "text": "We advise you and together decide on the best service for the person to be cared for."
+        },
+        "step3": {
+          "title": "We assess",
+          "text": "We thoroughly assess the condition of the person to be cared for with a psychologist or social worker."
+        },
+        "step4": {
+          "title": "We select",
+          "text": "Together we'll select the professional who best fits the person being cared for."
+        },
+        "step5": {
+          "title": "Enjoy",
+          "text": "We start the service and provide ongoing follow-up to ensure quality of service."
+        }
+      }
+    }
+  }
 }

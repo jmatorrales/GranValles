@@ -1,23 +1,47 @@
 {
-  "seo": {
-    "default": {
-      "title": "Gran Vallès - Cuidadores a domicilio en Barcelona",
-      "description": "Servicio de asistencia sanitaria a domicilio"
-    }
-  },
-  "nav": {
-    "home": "Inicio",
-    "services": {
-      "title": "Servicios",
-      "advice": "Asesoramiento",
-      "staffSelection": "Selección de personal",
-      "caregiverTypes": "Tipos de cuidador",
-      "followUp": "Seguimiento y suplencias",
-      "dependency": "Ayuda a la dependencia",
-      "bringCaregiver": "Trae a tu cuidador/a"
+  "home": {
+    "welcomeMessage": "20 años a tu lado\ncuidando de los tuyos",
+    "welcomeSubtitle": "En Gran Vallès ofrecemos acompañamiento y cuidado con trato cercano y una atención profesional.",
+    "form": {
+      "title": "Solicita información",
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "mail": "Correo electrónico",
+      "comments": "Comentario",
+      "privacy": "Acepto la {link}",
+      "privacyLink": "política de privacidad",
+      "send": "Enviar",
+      "sending": "Enviando..."
     },
-    "contact": "Contacto",
-    "info": "Solicita información"
-  },
-  "welcome":"Bienvenido a Gran Vallès"
+    "infoOffice": {
+      "callToAction": "¿Prefieres hablar con nosotros? Te atendemos encantados",
+      "schedule": "Lunes a viernes, de 9:00 a 19:00h"
+    },
+    "services": "Servicios de atención a domicilio",
+    "howItWorks": {
+      "title": "¿Cómo funciona Gran Vallès?",
+      "steps": {
+        "step1": {
+          "title": "Te escuchamos",
+          "text": "Escuchamos atentamente y entendemos tus necesidades."
+        },
+        "step2": {
+          "title": "Asesoramos",
+          "text": "Te asesoramos y decidimos entre todos el mejor servicio para la persona a cuidar."
+        },
+        "step3": {
+          "title": "Valoramos",
+          "text": "Valoramos en profundidad el estado de la persona a cuidar un psicólogo o trabajador social."
+        },
+        "step4": {
+          "title": "Seleccionamos",
+          "text": "Juntos seleccionaremos el profesional que mejor encaje con la persona cuidada."
+        },
+        "step5": {
+          "title": "Disfruta",
+          "text": "Iniciamos el servicio y hacemos un seguimiento continuo para asegurar la calidad del servicio."
+        }
+      }
+    }
+  }
 }

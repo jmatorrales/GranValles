@@ -1,1 +1,22 @@
-{}
+{
+  "seo": {
+    "default": {
+      "title": "Gran Vallès - Home Caregivers in Barcelona",
+      "description": "Home healthcare service"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": {
+      "title": "Services",
+      "advice": "Advice",
+      "staffSelection": "Staff Selection",
+      "caregiverTypes": "Caregiver Types",
+      "followUp": "Follow-up and Substitutes",
+      "dependency": "Dependency Assistance",
+      "bringCaregiver": "Bring Your Own Caregiver"
+    },
+    "contact": "Contact",
+    "info": "Request Information"
+  }
+}
