@@ -1,23 +1,22 @@
 <!-- components/home/HowItWorksSection.vue -->
 <template>
-  <div class="flex flex-col pt-20 gap-10 items-center">
-    <h2 
-        class="text-3xl md:text-5xl font-bold text-center mb-6 text-indigo-950"
-    >
-        {{ $t("home.howItWorks.title") }}
+  <div class="flex flex-col p-6 sm:p-20 gap-10 items-center">
+    <h2 class="text-3xl md:text-5xl font-bold text-center mb-6 text-indigo-950">
+      {{ $t("home.howItWorks.title") }}
     </h2>
-    <div class="grid grid-cols-1 sm:grid-cols-5 gap-0 w-2/3">
+    <div class="grid grid-cols-1 sm:grid-cols-5 gap-0 w-full sm:w-2/3">
       <div
         v-for="(step, index) in steps"
         :key="index"
-        :class="[step.bg, index !== 0 ? '-ml-4 sm:-ml-6' : '']"
+        :class="[
+          step.bg,
+          index !== 0 ? '-mt-6 sm:mt-0 sm:-ml-6' : '',
+        ]"
         :style="clipPath(index)"
         class="text-white px-8 py-10 text-center relative"
       >
         <p class="text-4xl font-bold mb-2">{{ index + 1 }}</p>
-        <p
-          class="font-semibold border-b border-white/50 inline-block pb-1 mb-3"
-        >
+        <p class="font-semibold border-b border-white/50 inline-block pb-1 mb-3">
           {{ step.title }}
         </p>
         <p class="text-sm">{{ step.text }}</p>
@@ -37,13 +36,39 @@ const steps = [
   { title: t("home.howItWorks.steps.step5.title"), text: t("home.howItWorks.steps.step5.text"), bg: "bg-blue-900" },
 ];
 
+// Detecta si estamos por debajo del breakpoint "sm" (640px) de Tailwind
+const isMobile = ref(false);
+let mediaQuery;
+
+function updateIsMobile(e) {
+  isMobile.value = e.matches;
+}
+
+onMounted(() => {
+  mediaQuery = window.matchMedia("(max-width: 639px)");
+  updateIsMobile(mediaQuery);
+  mediaQuery.addEventListener("change", updateIsMobile);
+});
+
+onUnmounted(() => {
+  mediaQuery?.removeEventListener("change", updateIsMobile);
+});
+
 function clipPath(index) {
   const isFirst = index === 0;
   const isLast = index === steps.length - 1;
 
-  let polygon = "0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%";
-  if (isFirst) polygon = "0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%";
-  if (isLast) polygon = "0% 0%, 100% 0%, 100% 100%, 0% 100%, 10% 50%";
+  // Versión horizontal (flecha apuntando a la derecha) — desktop/tablet
+  let polygonHorizontal = "0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 10% 50%";
+  if (isFirst) polygonHorizontal = "0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%";
+  if (isLast) polygonHorizontal = "0% 0%, 100% 0%, 100% 100%, 0% 100%, 10% 50%";
+
+  // Versión vertical (flecha apuntando hacia abajo) — móvil
+  let polygonVertical = "0% 0%, 0% 90%, 50% 100%, 100% 90%, 100% 0%, 50% 10%";
+  if (isFirst) polygonVertical = "0% 0%, 0% 90%, 50% 100%, 100% 90%, 100% 0%";
+  if (isLast) polygonVertical = "0% 0%, 0% 100%, 100% 100%, 100% 0%, 50% 10%";
+
+  const polygon = isMobile.value ? polygonVertical : polygonHorizontal;
 
   return { clipPath: `polygon(${polygon})` };
 }

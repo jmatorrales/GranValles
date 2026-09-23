@@ -18,5 +18,11 @@
     },
     "contact": "Contacte",
     "info": "Sol·licita informació"
+  },
+  "cookies": {
+    "text": "Utilitzem cookies pròpies per millorar la teva experiència.",
+    "link": "Més informació",
+    "accept": "Acceptar",
+    "reject": "Rebutjar"
   }
 }

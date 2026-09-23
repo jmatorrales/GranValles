@@ -1,0 +1,31 @@
+{
+  "footer": {
+    "companyName": "Gran Vallès",
+    "rights": "Tots els drets reservats.",
+    "offices": {
+      "title": "Les nostres oficines",
+      "items": [
+        { "name": "Oficina Sabadell", "address": "C/ Riego 69, 08202, Sabadell" },
+        { "name": "Oficina Granollers", "address": "C/ Bruniquer 52, Granollers" }
+      ]
+    },
+    "services": {
+      "title": "Serveis",
+      "items": [
+        { "label": "Cuidadors per hores", "to": "/services/cuidadores-horas" },
+        { "label": "Mig dia", "to": "/services/medio-dia" },
+        { "label": "Nit", "to": "/services/noche" },
+        { "label": "Caps de setmana", "to": "/services/fines-semana" },
+        { "label": "Intern", "to": "/services/interno" }
+      ]
+    },
+    "links": {
+      "items": [
+        { "label": "Avís legal", "to": "/legal" },
+        { "label": "Política de privadesa", "to": "/privacidad" },
+        { "label": "Política de cookies", "to": "/cookies" },
+        { "label": "Contacte", "to": "/contacto" }
+      ]
+    }
+  }
+}

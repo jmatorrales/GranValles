@@ -18,5 +18,11 @@
     },
     "contact": "Contact",
     "info": "Request Information"
+  },
+  "cookies": {
+    "text": "We use our own cookies to improve your experience.",
+    "link": "Learn more",
+    "accept": "Accept",
+    "reject": "Reject"
   }
 }

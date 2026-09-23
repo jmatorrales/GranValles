@@ -1,0 +1,25 @@
+{
+  "footer": {
+    "companyName": "Gran Vallès",
+    "rights": "All rights reserved.",
+    "offices": {
+      "title": "Our offices",
+      "0": { "name": "Rubí Office", "address": "Example Street, 1, Rubí" },
+      "1": { "name": "Terrassa Office", "address": "Example Street, 2, Terrassa" }
+    },
+    "services": {
+      "title": "Services",
+      "0": { "label": "Hourly caregivers", "to": "/services/cuidadores-horas" },
+      "1": { "label": "Half day", "to": "/services/medio-dia" },
+      "2": { "label": "Night", "to": "/services/noche" },
+      "3": { "label": "Weekends", "to": "/services/fines-semana" },
+      "4": { "label": "Live-in", "to": "/services/interno" }
+    },
+    "links": {
+      "0": { "label": "Legal notice", "to": "/legal" },
+      "1": { "label": "Privacy policy", "to": "/privacidad" },
+      "2": { "label": "Cookie policy", "to": "/cookies" },
+      "3": { "label": "Contact", "to": "/contacto" }
+    }
+  }
+}
