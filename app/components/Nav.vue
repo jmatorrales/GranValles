@@ -8,13 +8,7 @@ const navRef = ref(null);
 
 const telefono = ref("937261011");
 
-const services = computed(() => {
-  const all = tm("nav.services");
-  return Object.entries(all)
-    .filter(([key]) => key !== "title")
-    .map(([key, value]) => ({ key, label: rt(value) }))
-    .filter((s) => s.label && s.label !== s.key); // descarta keys sin traducción
-});
+const services = useServices();
 
 const availableLocales = computed(() =>
   locales.value.filter((l) => l.code !== locale.value),
