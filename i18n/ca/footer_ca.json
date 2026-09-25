@@ -50,10 +50,10 @@
     },
     "links": {
       "items": [
-        { "label": "Avís legal", "to": "/legal" },
-        { "label": "Política de privadesa", "to": "/privacidad" },
-        { "label": "Política de cookies", "to": "/cookieBanner" },
-        { "label": "Contacte", "to": "/contacto" }
+        { "label": "Avís legal", "to": "/" },
+        { "label": "Política de privadesa", "to": "/" },
+        { "label": "Política de cookies", "to": "/" },
+        { "label": "Contacte", "to": "/" }
       ]
     }
   }

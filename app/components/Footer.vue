@@ -1,29 +1,37 @@
 <script setup>
 import { Phone, Mail, MapPin } from "@lucide/vue";
-const { tm, rt } = useI18n();
 
-// Cada array sale del json de idioma (footer.offices, footer.services, footer.links)
-const offices = computed(() =>
-  tm("footer.offices.items").map((o) => {
+const { tm, rt } = useI18n({ useScope: "global" });
+
+const offices = computed(() => {
+  const items = tm("footer.offices.items");
+  if (!Array.isArray(items)) return []; // protección si los mensajes no están listos
+
+  return items.map((o) => {
     const name = rt(o.name);
     const address = o.address ? rt(o.address) : null;
+
+    // rt() + normalización a string: nunca pasar un objeto a :href
+    const rawMaps = o.maps ? rt(o.maps) : null;
     const maps =
-      o.maps ??
-      (address
-        ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`
-        : null);
+      typeof rawMaps === "string" && rawMaps
+        ? rawMaps
+        : address
+          ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`
+          : null;
+
     return { name, address, maps };
-  }),
-);
+  });
+});
 
 const services = useServices();
 
-const links = computed(() =>
-  tm("footer.links.items").map((l) => ({
-    label: rt(l.label),
-    to: l.to,
-  })),
-);
+const links = computed(() => {
+  const items = tm("footer.links.items");
+  return Array.isArray(items)
+    ? items.map((l) => ({ label: rt(l.label), to: l.to }))
+    : [];
+});
 </script>
 
 <template>
@@ -55,12 +63,6 @@ const links = computed(() =>
           {{ $t("footer.offices.title") }}
         </h3>
         <ul class="flex flex-col gap-3">
-          <!-- <li v-for="office in offices" :key="office.name" class="flex items-start gap-2 text-sm">
-            <MapPin class="w-4 h-4 shrink-0 mt-0.5" />
-            <span>
-              <strong class="block text-gray-100">{{ office.name }}</strong>
-            </span>
-          </li> -->
           <li
             v-for="office in offices"
             :key="office.name"
