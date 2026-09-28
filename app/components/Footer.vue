@@ -29,7 +29,7 @@ const services = useServices();
 const links = computed(() => {
   const items = tm("footer.links.items");
   return Array.isArray(items)
-    ? items.map((l) => ({ label: rt(l.label), to: l.to }))
+    ? items.map((l) => ({ label: rt(l.label), to: rt(l.to) }))
     : [];
 });
 </script>
@@ -90,12 +90,12 @@ const links = computed(() => {
         </h3>
         <ul class="flex flex-col gap-2">
           <li v-for="service in services" :key="service.key">
-            <NuxtLink
+            <NuxtLinkLocale
               :to="`/services/${service.key}`"
               class="text-sm hover:text-white transition-colors"
             >
               {{ service.label }}
-            </NuxtLink>
+            </NuxtLinkLocale>
           </li>
         </ul>
       </div>
@@ -106,10 +106,10 @@ const links = computed(() => {
       <div
         class="max-w-7xl mx-auto flex flex-wrap justify-center gap-x-6 gap-y-2 px-4 sm:px-6 lg:px-8 py-4 text-xs"
       >
-        <template v-for="(link, i) in links" :key="link.to">
-          <NuxtLink :to="link.to" class="hover:text-white transition-colors">{{
+        <template v-for="(link, i) in links" :key="i">
+          <NuxtLinkLocale :to="link.to" class="hover:text-white transition-colors">{{
             link.label
-          }}</NuxtLink>
+          }}</NuxtLinkLocale>
           <span v-if="i < links.length - 1" class="text-gray-600">|</span>
         </template>
       </div>

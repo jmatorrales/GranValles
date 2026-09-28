@@ -38,20 +38,10 @@
         }
       ]
     },
-    "services": {
-      "title": "Serveis",
-      "items": [
-        { "label": "Cuidadors per hores", "to": "/services/cuidadores-horas" },
-        { "label": "Mig dia", "to": "/services/medio-dia" },
-        { "label": "Nit", "to": "/services/noche" },
-        { "label": "Caps de setmana", "to": "/services/fines-semana" },
-        { "label": "Intern", "to": "/services/interno" }
-      ]
-    },
     "links": {
       "items": [
         { "label": "Avís legal", "to": "/" },
-        { "label": "Política de privadesa", "to": "/" },
+        { "label": "Política de privadesa", "to": "/privacy" },
         { "label": "Política de cookies", "to": "/" },
         { "label": "Contacte", "to": "/" }
       ]

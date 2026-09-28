@@ -99,9 +99,9 @@
             <span>
               <i18n-t keypath="home.form.privacy" tag="span">
                 <template #link>
-                  <NuxtLink to="/privacy" class="underline hover:text-blue-500">
+                  <NuxtLinkLocale to="/privacy" class="underline hover:text-blue-500">
                     {{ $t("home.form.privacyLink") }}
-                  </NuxtLink>
+                  </NuxtLinkLocale>
                 </template>
               </i18n-t>
               <strong class="text-red-500">*</strong>

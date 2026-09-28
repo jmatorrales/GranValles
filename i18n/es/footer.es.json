@@ -1,0 +1,50 @@
+{
+  "footer": {
+    "companyName": "Gran Vallès",
+    "rights": "Todos los derechos reservados.",
+    "offices": {
+      "title": "Nuestras oficinas",
+      "items": [
+        {
+          "name": "Sabadell",
+          "address": "C/ Riego 69, Sabadell",
+          "maps": "https://maps.app.goo.gl/1UfTmM8fJZ1xtTg18"
+        },
+        {
+          "name": "Granollers",
+          "address": "C/ Bruniquer 52, Granollers",
+          "maps": "https://maps.app.goo.gl/7jA3SR7Q7LnpeCkz9"
+        },
+        {
+          "name": "Molins de Rei",
+          "address": "C/ Rafel de Casanova 44, Molins de Rei",
+          "maps": "https://maps.app.goo.gl/Tfm4LeMrn9fu5bjz6"
+        },
+        {
+          "name": "Barcelona",
+          "address": "C/ Provença 214, Barcelona",
+          "maps": "https://maps.app.goo.gl/iMrJfUGFQhVgYAgJA"
+        },
+        {
+          "name": "Sant Cugat",
+          "address": "Avinguda Cerdanyola, s/n, Sant Cugat del Vallès",
+          "maps": "https://maps.app.goo.gl/S3Mfkncq6pPZH1eq9"
+        },
+        { "name": "Cerdanyola" },
+        {
+          "name": "Terrassa",
+          "address": "Carrer de Galileu, s/n, Terrassa",
+          "maps": "https://maps.app.goo.gl/WDEWyoMhHRZUhtcH8"
+        }
+      ]
+    },
+    "links": {
+      "items": [
+        { "label": "Aviso legal", "to": "/legal" },
+        { "label": "Política de privacidad", "to": "/privacy" },
+        { "label": "Política de cookies", "to": "/" },
+        { "label": "Contacto", "to": "/" }
+      ]
+    }
+  }
+}

@@ -10,7 +10,7 @@
         </h2>
         <!-- grid de servicios se ofrece -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          <NuxtLink to="/services/advice" 
+          <NuxtLinkLocale to="/services/advice" 
             class="relative w-full max-w-md rounded-md overflow-hidden">
             <img
               src="/img/asesoria.jpg"
@@ -22,8 +22,8 @@
             >
               {{ $t("nav.services.advice") }}
             </p>
-          </NuxtLink>
-          <NuxtLink to="/services/staffSelection" 
+          </NuxtLinkLocale>
+          <NuxtLinkLocale to="/services/staffSelection" 
             class="relative w-full max-w-md rounded-md overflow-hidden">
             <img
               src="/img/seleccion_de_personal.png"
@@ -35,8 +35,8 @@
             >
               {{ $t("nav.services.staffSelection") }}
             </p>
-          </NuxtLink>
-          <NuxtLink to="/services/caregiverTypes" 
+          </NuxtLinkLocale>
+          <NuxtLinkLocale to="/services/caregiverTypes" 
           class="relative w-full max-w-md rounded-md overflow-hidden">
             <img
               src="/img/tipo_de_cuidador.jpg"
@@ -48,8 +48,8 @@
             >
               {{ $t("nav.services.caregiverTypes") }}
             </p>
-          </NuxtLink>
-          <NuxtLink to="/services/followUp" 
+          </NuxtLinkLocale>
+          <NuxtLinkLocale to="/services/followUp" 
             class="relative w-full max-w-md rounded-md overflow-hidden">
             <img
               src="/img/seguimiento_y_suplencia.jpg"
@@ -61,8 +61,8 @@
             >
             {{ $t("nav.services.followUp") }}
             </p>
-          </NuxtLink>
-          <NuxtLink to="/services/dependency" 
+          </NuxtLinkLocale>
+          <NuxtLinkLocale to="/services/dependency" 
             class="relative w-full max-w-md rounded-md overflow-hidden">
             <img
               src="/img/trae_tu_cuidador.jpg"
@@ -74,8 +74,8 @@
             >
               {{ $t("nav.services.dependency") }}
             </p>
-          </NuxtLink>
-          <NuxtLink to="/services/bringCaregiver" 
+          </NuxtLinkLocale>
+          <NuxtLinkLocale to="/services/bringCaregiver" 
             class="relative w-full max-w-md rounded-md overflow-hidden">
             <img
               src="/img/ayuda_a_la_dependencia.jpg"
@@ -87,7 +87,7 @@
             >
               {{ $t("nav.services.bringCaregiver") }}
             </p>
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
       </div>
     </div>

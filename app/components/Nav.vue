@@ -47,7 +47,7 @@ onBeforeUnmount(() =>
       class="flex items-center justify-between gap-4 px-4 sm:px-6 lg:px-8 py-4"
     >
       <!-- Logo -->
-      <NuxtLink
+      <NuxtLinkLocale
         to="/"
         class="shrink-0 w-40 sm:w-48 md:w-56 lg:w-[28rem]"
         @click="closeMobile"
@@ -57,39 +57,39 @@ onBeforeUnmount(() =>
           alt="Logo Gran Vallès"
           class="w-full h-auto"
         />
-      </NuxtLink>
+      </NuxtLinkLocale>
 
       <!-- ===== MENÚ ESCRITORIO (≥ lg) ===== -->
       <div class="hidden lg:flex items-center gap-6 xl:gap-10">
         <!-- Home -->
-        <NuxtLink to="/" class="hover:text-blue-600 transition-colors">{{
+        <NuxtLinkLocale to="/" class="hover:text-blue-600 transition-colors">{{
           $t("nav.home")
-        }}</NuxtLink>
+        }}</NuxtLinkLocale>
         <!-- Servicios -->
         <div class="relative group">
-          <NuxtLink
+          <NuxtLinkLocale
             to="/services"
             class="hover:text-blue-600 transition-colors"
           >
             {{ $t("nav.services.title") }}
-          </NuxtLink>
+          </NuxtLinkLocale>
           <div
             class="absolute invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 flex flex-col bg-white shadow-lg rounded-md p-2 top-full left-0 mt-1 min-w-[240px] border border-gray-100 z-50"
           >
-            <NuxtLink
+            <NuxtLinkLocale
               v-for="service in services"
               :key="service.key"
               :to="`/services/${service.key}`"
               class="py-2 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors whitespace-nowrap"
             >
               {{ service.label }}
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
         </div>
         <!-- Contacto -->
-        <NuxtLink to="/" class="hover:text-blue-600 transition-colors">{{
+        <NuxtLinkLocale to="/" class="hover:text-blue-600 transition-colors">{{
           $t("nav.contact")
-        }}</NuxtLink>
+        }}</NuxtLinkLocale>
       </div>
 
       <!-- ===== ACCIONES ESCRITORIO (≥ lg) ===== -->
@@ -183,13 +183,13 @@ onBeforeUnmount(() =>
       class="absolute top-full left-0 right-0 z-50 bg-white shadow-xl border-t border-gray-200 max-h-[calc(100vh-100%)] overflow-y-auto lg:hidden"
     >
       <div class="flex flex-col p-4 gap-1">
-        <NuxtLink
+        <NuxtLinkLocale
           to="/"
           @click="closeMobile"
           class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors"
         >
           {{ $t("nav.home") }}
-        </NuxtLink>
+        </NuxtLinkLocale>
 
         <button
           @click="servicesOpen = !servicesOpen"
@@ -205,7 +205,7 @@ onBeforeUnmount(() =>
           v-if="servicesOpen"
           class="flex flex-col pl-4 border-l-2 border-blue-100 ml-3"
         >
-          <NuxtLink
+          <NuxtLinkLocale
             v-for="service in services"
             :key="service.key"
             :to="`/services/${service.key}`"
@@ -213,16 +213,16 @@ onBeforeUnmount(() =>
             class="py-2 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors"
           >
             {{ service.label }}
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
 
-        <NuxtLink
+        <NuxtLinkLocale
           to="/"
           @click="closeMobile"
           class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors"
         >
           {{ $t("nav.contact") }}
-        </NuxtLink>
+        </NuxtLinkLocale>
 
         <a
           href="mailto:info@granvalles.es"
