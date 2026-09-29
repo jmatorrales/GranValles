@@ -32,7 +32,7 @@ const reject = () => {
     >
       <p class="text-sm text-gray-700 text-center sm:text-left">
         {{ $t("cookies.text") }}
-        <NuxtLinkLocale to="/privacidad" class="underline hover:text-blue-600">
+        <NuxtLinkLocale to="/privacy" class="underline hover:text-blue-600">
           {{ $t("cookies.link") }}
         </NuxtLinkLocale>
       </p>
