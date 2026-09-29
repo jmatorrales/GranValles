@@ -41,7 +41,7 @@ const links = computed(() => {
     >
       <!-- Columna 1: Logo + nombre -->
       <div class="flex flex-col gap-3">
-        <img src="/logogva2.jpeg" alt="Logo Gran Vallès" class="w-32 h-auto" />
+        <img src="/logogva2.jpeg" alt="Logo Gran Vallès" class="w-[full] h-auto" />
         <p class="text-sm">{{ $t("footer.companyName") }}</p>
         <a
           href="mailto:info@granvalles.es"

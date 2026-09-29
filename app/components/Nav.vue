@@ -87,7 +87,7 @@ onBeforeUnmount(() =>
           </div>
         </div>
         <!-- Contacto -->
-        <NuxtLinkLocale to="/" class="hover:text-blue-600 transition-colors">{{
+        <NuxtLinkLocale to="/contact" class="hover:text-blue-600 transition-colors">{{
           $t("nav.contact")
         }}</NuxtLinkLocale>
       </div>

@@ -1,0 +1,82 @@
+{
+  "services": {
+    "seo": {
+      "title": "Serveis de cuidadors a domicili | Gran Vallès",
+      "description": "Cuidadors a domicili per hores, mig dia, nit, caps de setmana o interns. Trobi el servei que millor s'adapta a la seva família amb Gran Vallès Assistencial."
+    },
+    "hero": {
+      "eyebrow": "Els nostres serveis",
+      "title": "Cuidem de qui més estima, a casa seva",
+      "subtitle": "Cuidadors a domicili adaptats a cada família. Triï la modalitat que necessita i ens posarem en contacte amb vostè."
+    },
+    "cta": {
+      "call": "Trucar ara:",
+      "form": "Sol·licitar informació"
+    },
+    "types": {
+      "title": "Cuidadors: triï la modalitat que necessita",
+      "intro": "Tots els serveis de cuidadors s'adapten a cada cas. Cliqui sobre cada modalitat per veure'n els detalls.",
+      "readMore": "Més informació",
+      "items": [
+        {
+          "slug": "hores",
+          "title": "Cuidador per hores",
+          "text": "Acompanyament i atenció a la llar durant les hores que necessiti, en el moment del dia que li vagi millor."
+        },
+        {
+          "slug": "mig-dia",
+          "title": "Cuidador mig dia",
+          "text": "Atenció durant el matí o la tarda, ideal per cobrir les hores en què la família no pot ser-hi present."
+        },
+        {
+          "slug": "nit",
+          "title": "Cuidador de nit",
+          "text": "Vetlla i acompanyament durant la nit, perquè la persona estigui ben atesa i la família pugui descansar."
+        },
+        {
+          "slug": "caps-de-setmana",
+          "title": "Cuidador caps de setmana",
+          "text": "Cobertura els dissabtes i diumenges, perquè la família pugui tenir temps per a vostè."
+        },
+        {
+          "slug": "intern",
+          "title": "Cuidador intern",
+          "text": "Un cuidador que viu a casa i ofereix atenció continuada, de dia i de nit."
+        }
+      ]
+    },
+    "advisory": {
+      "eyebrow": "Assessorament",
+      "title": "Assessorament per a les famílies",
+      "text": "Si no sap per on començar, l'acompanyem. Li expliquem les opcions i l'ajudem a decidir amb tranquil·litat què necessita la seva família.",
+      "points": [
+        "Valorem la situació de la persona que cal cuidar.",
+        "Li recomanem el servei que millor s'adapta al seu cas.",
+        "Resolem els seus dubtes abans de comprometre's a res."
+      ],
+      "cta": "Demanar assessorament"
+    },
+    "how": {
+      "title": "Com funcionen els nostres serveis",
+      "intro": "Contractar un cuidador ha de ser senzill. Aquests són els passos:",
+      "steps": [
+        {
+          "title": "Ens explica què necessita",
+          "text": "Truqui'ns o ompli el formulari i expliqui'ns la situació de la persona que cal cuidar i els horaris que necessita."
+        },
+        {
+          "title": "Li proposem el servei",
+          "text": "Valorem el seu cas i li recomanem la modalitat que millor s'hi adapta."
+        },
+        {
+          "title": "Comença l'atenció",
+          "text": "Un cop acordat, el cuidador comença el servei a casa, a partir de la data que vostè triï."
+        }
+      ]
+    },
+    "help": {
+      "title": "No sap quin servei triar?",
+      "text": "No es preocupi. Expliqui'ns la seva situació i l'ajudarem a trobar la millor opció."
+    }
+  }
+}
