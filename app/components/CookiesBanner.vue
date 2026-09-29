@@ -30,17 +30,25 @@ const reject = () => {
     <div
       class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 px-4 sm:px-6 lg:px-8 py-4"
     >
-      <p class="text-sm text-gray-700 text-center sm:text-left">
+      <p
+        class="text-sm text-gray-700 text-justify hyphens-auto sm:text-left sm:hyphens-none"
+      >
         {{ $t("cookies.text") }}
         <NuxtLinkLocale to="/privacy" class="underline hover:text-blue-600">
           {{ $t("cookies.link") }}
         </NuxtLinkLocale>
       </p>
       <div class="flex gap-3 shrink-0">
-        <button @click="reject" class="border border-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-50 transition-colors text-sm">
+        <button
+          @click="reject"
+          class="border border-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-50 transition-colors text-sm"
+        >
           {{ $t("cookies.reject") }}
         </button>
-        <button @click="accept" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm">
+        <button
+          @click="accept"
+          class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors text-sm"
+        >
           {{ $t("cookies.accept") }}
         </button>
       </div>

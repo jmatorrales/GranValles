@@ -1,10 +1,14 @@
 <script setup>
-  const { t } = useI18n()
+const { t, locale } = useI18n();
 
-  useSeoMeta({
-    title: t('seo.default.title'),
-    description: t('seo.default.description')
-  })
+useHead({
+  htmlAttrs: { lang: locale },
+});
+
+useSeoMeta({
+  title: t("seo.default.title"),
+  description: t("seo.default.description"),
+});
 </script>
 <template>
   <div class="flex flex-col min-h-screen">
@@ -14,7 +18,7 @@
     <main class="flex-1">
       <NuxtPage />
     </main>
-    <Footer/>
+    <Footer />
     <CookiesBanner />
   </div>
 </template>
