@@ -1,0 +1,95 @@
+{
+  "cookies": {
+    "title": "Política de cookies",
+    "seo": {
+      "title": "Política de cookies | Gran Vallès",
+      "description": "Informació sobre les cookies que utilitza el lloc web de GRAN VALLÈS ASSISTENCIAL, S.L."
+    },
+    "intro": {
+      "paragraphs": [
+        "En compliment amb el deure d'informació recollit a l'article 22.2 de la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i del Comerç Electrònic, i al Reglament (UE) 2016/679 (RGPD), GRAN VALLÈS ASSISTENCIAL, S.L., titular del lloc web www.granvalles.es, l'informa de manera clara i precisa sobre les cookies que s'utilitzen en aquesta pàgina web."
+      ]
+    },
+    "sections": [
+      {
+        "id": "que-son-cookies",
+        "heading": "Què són les cookies?",
+        "paragraphs": [
+          "Una cookie és un fitxer de petita grandària que els llocs web envien al navegador i que es desa al seu dispositiu. Les cookies permeten que la pàgina web emmagatzemi i recuperi informació sobre la seva visita, com l'idioma preferit i altres opcions, amb la finalitat de millorar els serveis que s'ofereixen i contribuir a una millor experiència de navegació.",
+          "Aquesta política també és aplicable a tecnologies similars, com l'emmagatzematge local del navegador (localStorage), que funcionen amb la mateixa finalitat."
+        ],
+        "list": []
+      },
+      {
+        "id": "tipus-cookies",
+        "heading": "Tipus de cookies",
+        "paragraphs": [
+          "En funció de qui gestioni el domini des d'on s'envien les cookies i es tractin les dades, es distingeix entre cookies pròpies (les gestiona el mateix titular del web) i cookies de tercers (les gestiona una altra entitat).",
+          "Segons el termini de temps que romanen emmagatzemades al navegador, es distingeix entre cookies de sessió (s'eliminen en tancar el navegador) i cookies persistents (romanen durant un temps determinat).",
+          "Finalment, segons la finalitat per a la qual es tracta la informació recopilada, les cookies es classifiquen en les categories següents:"
+        ],
+        "list": [
+          "Cookies tècniques o necessàries: permeten navegar pel lloc web i utilitzar-ne les funcions bàsiques.",
+          "Cookies de personalització: permeten accedir al lloc web amb unes característiques determinades, com l'idioma.",
+          "Cookies de seguretat: serveixen per impedir o dificultar els atacs contra el lloc web.",
+          "Cookies d'anàlisi: permeten el seguiment i l'anàlisi del comportament dels usuaris.",
+          "Cookies publicitàries i de publicitat comportamental: gestionen els espais publicitaris i adapten la publicitat al perfil de l'usuari.",
+          "Cookies de geolocalització: serveixen per esbrinar el país o la zona on es troba l'usuari.",
+          "Cookies de complement per intercanviar continguts socials: permeten compartir continguts en xarxes socials o mostrar-ne."
+        ],
+        "after": [
+          "Les cookies tècniques i de personalització no requereixen el consentiment de l'usuari. Totes les altres sí que el requereixen."
+        ]
+      },
+      {
+        "id": "cookies-utilitzades",
+        "heading": "Cookies utilitzades en aquesta web",
+        "paragraphs": [
+          "En aquest lloc web s'utilitzen les cookies següents:"
+        ],
+        "list": [
+          "Nom: i18n_redirected · Proveïdor: pròpia (granvalles.es) · Tipus: personalització (tècnica) · Finalitat: recordar l'idioma triat per l'usuari · Durada: 1 any.",
+          "Nom: cookies d'Elfsight · Proveïdor: Elfsight (tercer) · Tipus: tercers, segons el widget incrustat · Finalitat: mostrar contingut extern incrustat a la web mitjançant widgets · Durada: segons la política del proveïdor."
+        ],
+        "after": [
+          "Les cookies de tercers només s'instal·len un cop l'usuari les ha acceptat. Per a més informació sobre el seu funcionament, pot consultar la política de privacitat i de cookies del proveïdor corresponent.",
+          "Si s'incorporen nous serveis que utilitzin cookies, aquesta llista s'actualitzarà."
+        ]
+      },
+      {
+        "id": "consentiment",
+        "heading": "Consentiment i gestió de preferències",
+        "paragraphs": [
+          "En accedir al lloc web es mostra un avís de cookies que permet acceptar-les totes, rebutjar les que no són necessàries o configurar-les per categories. Les cookies que no siguin tècniques o necessàries no s'instal·len fins que l'usuari hagi donat el seu consentiment.",
+          "L'usuari pot retirar el consentiment o modificar les seves preferències en qualsevol moment, tan fàcilment com les va acceptar, mitjançant l'opció de configuració de cookies disponible al peu de pàgina del web o esborrant les cookies des del seu navegador."
+        ],
+        "list": []
+      },
+      {
+        "id": "configuracio-navegador",
+        "heading": "Com modificar la configuració des del navegador",
+        "paragraphs": [
+          "L'usuari pot restringir, bloquejar o esborrar les cookies de GRAN VALLÈS ASSISTENCIAL, S.L. o de qualsevol altra pàgina web utilitzant el seu navegador. El procediment és diferent en cada navegador; pot consultar-lo a l'ajuda de cadascun:"
+        ],
+        "list": [
+          "Google Chrome: https://support.google.com/chrome/answer/95647",
+          "Mozilla Firefox: https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
+          "Safari: https://support.apple.com/guide/safari/sfri11471/mac",
+          "Microsoft Edge: https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"
+        ],
+        "after": [
+          "En desactivar les cookies, és possible que la pàgina web no funcioni correctament o que no es pugui accedir a algunes de les seves funcions."
+        ]
+      },
+      {
+        "id": "modificacio-politica",
+        "heading": "Modificació de la política de cookies",
+        "paragraphs": [
+          "GRAN VALLÈS ASSISTENCIAL, S.L. pot modificar aquesta Política de Cookies per adaptar-la a novetats legals o a canvis en les cookies que s'utilitzen. Quan els canvis siguin rellevants, se n'informarà a través del lloc web. Es recomana a l'usuari revisar-la periòdicament.",
+          "Darrera actualització: setembre de 2026."
+        ],
+        "list": []
+      }
+    ]
+  }
+}

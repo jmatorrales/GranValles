@@ -1,0 +1,95 @@
+{
+  "cookies": {
+    "title": "Cookie Policy",
+    "seo": {
+      "title": "Cookie Policy | Gran Vallès",
+      "description": "Information about the cookies used on the website of GRAN VALLÈS ASSISTENCIAL, S.L."
+    },
+    "intro": {
+      "paragraphs": [
+        "In compliance with the duty to provide information set out in Article 22.2 of Law 34/2002 of 11 July on Information Society Services and Electronic Commerce, and in Regulation (EU) 2016/679 (GDPR), GRAN VALLÈS ASSISTENCIAL, S.L., owner of the website www.granvalles.es, informs you clearly and precisely about the cookies used on this website."
+      ]
+    },
+    "sections": [
+      {
+        "id": "que-son-cookies",
+        "heading": "What are cookies?",
+        "paragraphs": [
+          "A cookie is a small file that websites send to your browser and that is saved on your device. Cookies allow the website to store and retrieve information about your visit, such as your preferred language and other options, in order to improve the services offered and contribute to a better browsing experience.",
+          "This policy also applies to similar technologies, such as the browser's local storage (localStorage), which serve the same purpose."
+        ],
+        "list": []
+      },
+      {
+        "id": "tipus-cookies",
+        "heading": "Types of cookies",
+        "paragraphs": [
+          "Depending on who manages the domain from which the cookies are sent and the data is processed, a distinction is made between first-party cookies (managed by the website owner) and third-party cookies (managed by another entity).",
+          "Depending on how long they remain stored in the browser, a distinction is made between session cookies (deleted when you close the browser) and persistent cookies (kept for a set period of time).",
+          "Finally, depending on the purpose for which the information collected is processed, cookies are classified into the following categories:"
+        ],
+        "list": [
+          "Technical or necessary cookies: allow you to browse the website and use its basic functions.",
+          "Personalisation cookies: allow you to access the website with certain characteristics, such as language.",
+          "Security cookies: help prevent or hinder attacks against the website.",
+          "Analytics cookies: allow the tracking and analysis of user behaviour.",
+          "Advertising and behavioural advertising cookies: manage advertising spaces and tailor advertising to the user's profile.",
+          "Geolocation cookies: used to find out the country or area where the user is located.",
+          "Social content plug-in cookies: allow content to be shared on or displayed from social networks."
+        ],
+        "after": [
+          "Technical and personalisation cookies do not require the user's consent. All other cookies do."
+        ]
+      },
+      {
+        "id": "cookies-utilitzades",
+        "heading": "Cookies used on this website",
+        "paragraphs": [
+          "The following cookies are used on this website:"
+        ],
+        "list": [
+          "Name: i18n_redirected · Provider: first-party (granvalles.es) · Type: personalisation (technical) · Purpose: remember the language chosen by the user · Duration: 1 year.",
+          "Name: Elfsight cookies · Provider: Elfsight (third party) · Type: third-party, depending on the embedded widget · Purpose: display external content embedded in the website through widgets · Duration: according to the provider's policy."
+        ],
+        "after": [
+          "Third-party cookies are only installed once the user has accepted them. For more information on how they work, you can consult the privacy and cookie policy of the relevant provider.",
+          "If new services that use cookies are added, this list will be updated."
+        ]
+      },
+      {
+        "id": "consentiment",
+        "heading": "Consent and preference management",
+        "paragraphs": [
+          "When you access the website, a cookie notice is displayed that lets you accept all cookies, reject those that are not necessary, or configure them by category. Cookies that are not technical or necessary are not installed until the user has given consent.",
+          "The user can withdraw consent or change their preferences at any time, as easily as they gave it, using the cookie settings option available in the website footer or by deleting cookies from their browser."
+        ],
+        "list": []
+      },
+      {
+        "id": "configuracio-navegador",
+        "heading": "How to change settings from your browser",
+        "paragraphs": [
+          "You can restrict, block or delete cookies from GRAN VALLÈS ASSISTENCIAL, S.L. or from any other website using your browser. The procedure differs in each browser; you can find it in each browser's help section:"
+        ],
+        "list": [
+          "Google Chrome: https://support.google.com/chrome/answer/95647",
+          "Mozilla Firefox: https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
+          "Safari: https://support.apple.com/guide/safari/sfri11471/mac",
+          "Microsoft Edge: https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"
+        ],
+        "after": [
+          "If you disable cookies, the website may not work properly or you may not be able to access some of its features."
+        ]
+      },
+      {
+        "id": "modificacio-politica",
+        "heading": "Changes to the cookie policy",
+        "paragraphs": [
+          "GRAN VALLÈS ASSISTENCIAL, S.L. may modify this Cookie Policy to adapt it to legal developments or to changes in the cookies used. When changes are significant, notice will be given through the website. Users are advised to review it periodically.",
+          "Last updated: September 2026."
+        ],
+        "list": []
+      }
+    ]
+  }
+}

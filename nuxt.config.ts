@@ -22,9 +22,9 @@ export default defineNuxtConfig({
   },
   i18n: {
     locales: [
-      { code: 'ca', name: 'Català', files:['ca/common.ca.json', 'ca/home.ca.json', 'ca/footer.ca.json', 'ca/legal.ca.json', 'ca/privacy.ca.json'] },
-      { code: 'es', name: 'Español', files: ['es/common.es.json', 'es/home.es.json', 'es/footer.es.json', 'es/legal.es.json', 'es/privacy.es.json'] },
-      { code: 'en', name: 'English', files: ['en/common.en.json', 'en/home.en.json', 'en/footer.en.json', 'en/legal.en.json', 'en/privacy.en.json'] }
+      { code: 'ca', name: 'Català', files:['ca/common.ca.json', 'ca/home.ca.json', 'ca/footer.ca.json', 'ca/legal.ca.json', 'ca/privacy.ca.json', 'ca/cookies.ca.json'] },
+      { code: 'es', name: 'Español', files: ['es/common.es.json', 'es/home.es.json', 'es/footer.es.json', 'es/legal.es.json', 'es/privacy.es.json', 'es/cookies.es.json'] },
+      { code: 'en', name: 'English', files: ['en/common.en.json', 'en/home.en.json', 'en/footer.en.json', 'en/legal.en.json', 'en/privacy.en.json', 'en/cookies.en.json'] }
     ],
     defaultLocale: 'ca',
     langDir: './',

@@ -1,0 +1,95 @@
+{
+  "cookies": {
+    "title": "Política de cookies",
+    "seo": {
+      "title": "Política de cookies | Gran Vallès",
+      "description": "Información sobre las cookies que utiliza el sitio web de GRAN VALLÈS ASSISTENCIAL, S.L."
+    },
+    "intro": {
+      "paragraphs": [
+        "En cumplimiento del deber de información recogido en el artículo 22.2 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, y en el Reglamento (UE) 2016/679 (RGPD), GRAN VALLÈS ASSISTENCIAL, S.L., titular del sitio web www.granvalles.es, le informa de manera clara y precisa sobre las cookies que se utilizan en esta página web."
+      ]
+    },
+    "sections": [
+      {
+        "id": "que-son-cookies",
+        "heading": "¿Qué son las cookies?",
+        "paragraphs": [
+          "Una cookie es un fichero de pequeño tamaño que los sitios web envían al navegador y que se guarda en su dispositivo. Las cookies permiten que la página web almacene y recupere información sobre su visita, como el idioma preferido y otras opciones, con la finalidad de mejorar los servicios ofrecidos y contribuir a una mejor experiencia de navegación.",
+          "Esta política también es aplicable a tecnologías similares, como el almacenamiento local del navegador (localStorage), que funcionan con la misma finalidad."
+        ],
+        "list": []
+      },
+      {
+        "id": "tipus-cookies",
+        "heading": "Tipos de cookies",
+        "paragraphs": [
+          "En función de quién gestione el dominio desde el que se envían las cookies y se traten los datos, se distingue entre cookies propias (las gestiona el propio titular del sitio web) y cookies de terceros (las gestiona otra entidad).",
+          "Según el plazo de tiempo que permanecen almacenadas en el navegador, se distingue entre cookies de sesión (se eliminan al cerrar el navegador) y cookies persistentes (permanecen durante un tiempo determinado).",
+          "Por último, según la finalidad para la que se trata la información recopilada, las cookies se clasifican en las siguientes categorías:"
+        ],
+        "list": [
+          "Cookies técnicas o necesarias: permiten navegar por el sitio web y utilizar sus funciones básicas.",
+          "Cookies de personalización: permiten acceder al sitio web con unas características determinadas, como el idioma.",
+          "Cookies de seguridad: sirven para impedir o dificultar los ataques contra el sitio web.",
+          "Cookies de análisis: permiten el seguimiento y el análisis del comportamiento de los usuarios.",
+          "Cookies publicitarias y de publicidad comportamental: gestionan los espacios publicitarios y adaptan la publicidad al perfil del usuario.",
+          "Cookies de geolocalización: sirven para averiguar el país o la zona en la que se encuentra el usuario.",
+          "Cookies de complemento para intercambiar contenidos sociales: permiten compartir contenidos en redes sociales o mostrarlos."
+        ],
+        "after": [
+          "Las cookies técnicas y de personalización no requieren el consentimiento del usuario. Todas las demás sí lo requieren."
+        ]
+      },
+      {
+        "id": "cookies-utilitzades",
+        "heading": "Cookies utilizadas en este sitio web",
+        "paragraphs": [
+          "En este sitio web se utilizan las siguientes cookies:"
+        ],
+        "list": [
+          "Nombre: i18n_redirected · Proveedor: propia (granvalles.es) · Tipo: personalización (técnica) · Finalidad: recordar el idioma elegido por el usuario · Duración: 1 año.",
+          "Nombre: cookies de Elfsight · Proveedor: Elfsight (tercero) · Tipo: de terceros, según el widget incrustado · Finalidad: mostrar contenido externo incrustado en la web mediante widgets · Duración: según la política del proveedor."
+        ],
+        "after": [
+          "Las cookies de terceros solo se instalan una vez que el usuario las ha aceptado. Para más información sobre su funcionamiento, puede consultar la política de privacidad y de cookies del proveedor correspondiente.",
+          "Si se incorporan nuevos servicios que utilicen cookies, esta lista se actualizará."
+        ]
+      },
+      {
+        "id": "consentiment",
+        "heading": "Consentimiento y gestión de preferencias",
+        "paragraphs": [
+          "Al acceder al sitio web se muestra un aviso de cookies que permite aceptarlas todas, rechazar las que no son necesarias o configurarlas por categorías. Las cookies que no sean técnicas o necesarias no se instalan hasta que el usuario haya dado su consentimiento.",
+          "El usuario puede retirar el consentimiento o modificar sus preferencias en cualquier momento, tan fácilmente como las aceptó, mediante la opción de configuración de cookies disponible en el pie de página del sitio web o eliminando las cookies desde su navegador."
+        ],
+        "list": []
+      },
+      {
+        "id": "configuracio-navegador",
+        "heading": "Cómo modificar la configuración desde el navegador",
+        "paragraphs": [
+          "El usuario puede restringir, bloquear o eliminar las cookies de GRAN VALLÈS ASSISTENCIAL, S.L. o de cualquier otra página web utilizando su navegador. El procedimiento es diferente en cada navegador; puede consultarlo en la ayuda de cada uno:"
+        ],
+        "list": [
+          "Google Chrome: https://support.google.com/chrome/answer/95647",
+          "Mozilla Firefox: https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias",
+          "Safari: https://support.apple.com/guide/safari/sfri11471/mac",
+          "Microsoft Edge: https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09"
+        ],
+        "after": [
+          "Al desactivar las cookies, es posible que la página web no funcione correctamente o que no pueda acceder a algunas de sus funciones."
+        ]
+      },
+      {
+        "id": "modificacio-politica",
+        "heading": "Modificación de la política de cookies",
+        "paragraphs": [
+          "GRAN VALLÈS ASSISTENCIAL, S.L. puede modificar esta Política de Cookies para adaptarla a novedades legales o a cambios en las cookies que se utilizan. Cuando los cambios sean relevantes, se informará a través del sitio web. Se recomienda al usuario revisarla periódicamente.",
+          "Última actualización: septiembre de 2026."
+        ],
+        "list": []
+      }
+    ]
+  }
+}
