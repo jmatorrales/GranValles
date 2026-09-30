@@ -11,7 +11,7 @@ useSeoMeta({
 });
 </script>
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col min-h-screen bg-orange-50/50">
     <!-- anuncia los cambios de ruta a lectores de pantalla. -->
     <NuxtRouteAnnouncer />
     <Nav />

@@ -63,7 +63,7 @@ useSeoMeta({
       <ul class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <li v-for="item in types" :key="rt(item.slug)">
           <NuxtLink
-            :to="localePath('/services/' + rt(item.slug))"
+            :to="localePath('/services/caregiverTypes')"
             class="group flex h-full flex-col rounded-2xl border-2 border-blue-100 bg-white p-6 shadow-sm transition hover:border-blue-600 hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
           >
             <h3 class="text-2xl font-bold text-gray-900">{{ rt(item.title) }}</h3>

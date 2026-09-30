@@ -1,0 +1,82 @@
+{
+  "services": {
+    "seo": {
+      "title": "Home Caregiver Services | Gran Vallès",
+      "description": "Home caregivers by the hour, half-day, overnight, weekends or live-in. Find the service that best suits your family with Gran Vallès Assistencial."
+    },
+    "hero": {
+      "eyebrow": "Our services",
+      "title": "We care for the people you love most, in their own home",
+      "subtitle": "Home caregivers tailored to every family. Choose the option you need and we will get in touch with you."
+    },
+    "cta": {
+      "call": "Call now:",
+      "form": "Request information"
+    },
+    "types": {
+      "title": "Caregivers: choose the option you need",
+      "intro": "All our caregiver services are adapted to each case. Click on each option to see the details.",
+      "readMore": "More information",
+      "items": [
+        {
+          "slug": "hores",
+          "title": "Hourly caregiver",
+          "text": "Companionship and home care for as many hours as you need, at the time of day that suits you best."
+        },
+        {
+          "slug": "mig-dia",
+          "title": "Half-day caregiver",
+          "text": "Care during the morning or afternoon, ideal for covering the hours when the family cannot be present."
+        },
+        {
+          "slug": "nit",
+          "title": "Overnight caregiver",
+          "text": "Night-time supervision and companionship, so the person is well looked after and the family can rest."
+        },
+        {
+          "slug": "caps-de-setmana",
+          "title": "Weekend caregiver",
+          "text": "Coverage on Saturdays and Sundays, so the family can have some time for themselves."
+        },
+        {
+          "slug": "intern",
+          "title": "Live-in caregiver",
+          "text": "A caregiver who lives in the home and provides continuous care, day and night."
+        }
+      ]
+    },
+    "advisory": {
+      "eyebrow": "Advice",
+      "title": "Advice for families",
+      "text": "If you don't know where to start, we're here to guide you. We explain the options and help you decide calmly what your family needs.",
+      "points": [
+        "We assess the situation of the person who needs care.",
+        "We recommend the service that best suits your case.",
+        "We answer your questions before you commit to anything."
+      ],
+      "cta": "Request advice"
+    },
+    "how": {
+      "title": "How our services work",
+      "intro": "Hiring a caregiver should be simple. Here are the steps:",
+      "steps": [
+        {
+          "title": "Tell us what you need",
+          "text": "Call us or fill in the form and tell us about the situation of the person who needs care and the schedule you require."
+        },
+        {
+          "title": "We propose the service",
+          "text": "We assess your case and recommend the option that suits it best."
+        },
+        {
+          "title": "Care begins",
+          "text": "Once agreed, the caregiver starts the service at home, from the date you choose."
+        }
+      ]
+    },
+    "help": {
+      "title": "Not sure which service to choose?",
+      "text": "Don't worry. Tell us about your situation and we'll help you find the best option."
+    }
+  }
+}

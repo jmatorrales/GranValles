@@ -1,0 +1,82 @@
+{
+  "services": {
+    "seo": {
+      "title": "Servicios de cuidadores a domicilio | Gran Vallès",
+      "description": "Cuidadores a domicilio por horas, medio día, noche, fines de semana o internos. Encuentre el servicio que mejor se adapta a su familia con Gran Vallès Assistencial."
+    },
+    "hero": {
+      "eyebrow": "Nuestros servicios",
+      "title": "Cuidamos de quien más quiere, en su casa",
+      "subtitle": "Cuidadores a domicilio adaptados a cada familia. Elija la modalidad que necesita y nos pondremos en contacto con usted."
+    },
+    "cta": {
+      "call": "Llamar ahora:",
+      "form": "Solicitar información"
+    },
+    "types": {
+      "title": "Cuidadores: elija la modalidad que necesita",
+      "intro": "Todos los servicios de cuidadores se adaptan a cada caso. Haga clic en cada modalidad para ver los detalles.",
+      "readMore": "Más información",
+      "items": [
+        {
+          "slug": "hores",
+          "title": "Cuidador por horas",
+          "text": "Acompañamiento y atención en el hogar durante las horas que necesite, en el momento del día que mejor le convenga."
+        },
+        {
+          "slug": "mig-dia",
+          "title": "Cuidador medio día",
+          "text": "Atención durante la mañana o la tarde, ideal para cubrir las horas en que la familia no puede estar presente."
+        },
+        {
+          "slug": "nit",
+          "title": "Cuidador de noche",
+          "text": "Vela y acompañamiento durante la noche, para que la persona esté bien atendida y la familia pueda descansar."
+        },
+        {
+          "slug": "caps-de-setmana",
+          "title": "Cuidador fines de semana",
+          "text": "Cobertura los sábados y domingos, para que la familia pueda tener tiempo para usted."
+        },
+        {
+          "slug": "intern",
+          "title": "Cuidador interno",
+          "text": "Un cuidador que vive en casa y ofrece atención continuada, de día y de noche."
+        }
+      ]
+    },
+    "advisory": {
+      "eyebrow": "Asesoramiento",
+      "title": "Asesoramiento para las familias",
+      "text": "Si no sabe por dónde empezar, le acompañamos. Le explicamos las opciones y le ayudamos a decidir con tranquilidad qué necesita su familia.",
+      "points": [
+        "Valoramos la situación de la persona que hay que cuidar.",
+        "Le recomendamos el servicio que mejor se adapta a su caso.",
+        "Resolvemos sus dudas antes de comprometerse a nada."
+      ],
+      "cta": "Pedir asesoramiento"
+    },
+    "how": {
+      "title": "Cómo funcionan nuestros servicios",
+      "intro": "Contratar un cuidador debe ser sencillo. Estos son los pasos:",
+      "steps": [
+        {
+          "title": "Nos explica lo que necesita",
+          "text": "Llámenos o rellene el formulario y cuéntenos la situación de la persona que hay que cuidar y los horarios que necesita."
+        },
+        {
+          "title": "Le proponemos el servicio",
+          "text": "Valoramos su caso y le recomendamos la modalidad que mejor se adapta."
+        },
+        {
+          "title": "Comienza la atención",
+          "text": "Una vez acordado, el cuidador comienza el servicio en casa, a partir de la fecha que usted elija."
+        }
+      ]
+    },
+    "help": {
+      "title": "¿No sabe qué servicio elegir?",
+      "text": "No se preocupe. Cuéntenos su situación y le ayudaremos a encontrar la mejor opción."
+    }
+  }
+}
