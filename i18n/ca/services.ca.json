@@ -19,27 +19,27 @@
       "readMore": "Més informació",
       "items": [
         {
-          "slug": "hores",
+          "section": "hour",
           "title": "Cuidador per hores",
           "text": "Acompanyament i atenció a la llar durant les hores que necessiti, en el moment del dia que li vagi millor."
         },
         {
-          "slug": "mig-dia",
+          "section": "halfDay",
           "title": "Cuidador mig dia",
           "text": "Atenció durant el matí o la tarda, ideal per cobrir les hores en què la família no pot ser-hi present."
         },
         {
-          "slug": "nit",
+          "section": "night",
           "title": "Cuidador de nit",
           "text": "Vetlla i acompanyament durant la nit, perquè la persona estigui ben atesa i la família pugui descansar."
         },
         {
-          "slug": "caps-de-setmana",
+          "section": "weekend",
           "title": "Cuidador caps de setmana",
           "text": "Cobertura els dissabtes i diumenges, perquè la família pugui tenir temps per a vostè."
         },
         {
-          "slug": "intern",
+          "section": "liveIn",
           "title": "Cuidador intern",
           "text": "Un cuidador que viu a casa i ofereix atenció continuada, de dia i de nit."
         }

@@ -19,27 +19,27 @@
       "readMore": "More information",
       "items": [
         {
-          "slug": "hores",
+          "section": "hour",
           "title": "Hourly caregiver",
           "text": "Companionship and home care for as many hours as you need, at the time of day that suits you best."
         },
         {
-          "slug": "mig-dia",
+          "section": "halfDay",
           "title": "Half-day caregiver",
           "text": "Care during the morning or afternoon, ideal for covering the hours when the family cannot be present."
         },
         {
-          "slug": "nit",
+          "section": "night",
           "title": "Overnight caregiver",
           "text": "Night-time supervision and companionship, so the person is well looked after and the family can rest."
         },
         {
-          "slug": "caps-de-setmana",
+          "section": "weekend",
           "title": "Weekend caregiver",
           "text": "Coverage on Saturdays and Sundays, so the family can have some time for themselves."
         },
         {
-          "slug": "intern",
+          "section": "liveIn",
           "title": "Live-in caregiver",
           "text": "A caregiver who lives in the home and provides continuous care, day and night."
         }

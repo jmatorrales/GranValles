@@ -49,7 +49,7 @@ onBeforeUnmount(() =>
       <!-- Logo -->
       <NuxtLinkLocale
         to="/"
-        class="shrink-0 w-40 sm:w-48 md:w-56 lg:w-[28rem]"
+        class="shrink-0 w-40 sm:w-48 md:w-56 lg:w-72 xl:w-[28rem]"
         @click="closeMobile"
       >
         <img
@@ -87,15 +87,19 @@ onBeforeUnmount(() =>
           </div>
         </div>
         <!-- Contacto -->
-        <NuxtLinkLocale to="/contact" class="hover:text-blue-600 transition-colors">{{
-          $t("nav.contact")
-        }}</NuxtLinkLocale>
+        <NuxtLinkLocale
+          to="/contact"
+          class="hover:text-blue-600 transition-colors"
+          >{{ $t("nav.contact") }}
+        </NuxtLinkLocale>
       </div>
 
       <!-- ===== ACCIONES ESCRITORIO (≥ lg) ===== -->
       <div class="hidden lg:flex items-center gap-4 xl:gap-6">
         <!-- WhatsApp (escritorio) -->
-        <a
+
+        <!-- TODO: Whats -->
+        <!-- <a
           :href="`https://wa.me/34${telefono}`"
           target="_blank"
           class="shrink-0 w-10 h-10 flex items-center justify-center hover:scale-110 transition-transform"
@@ -106,9 +110,9 @@ onBeforeUnmount(() =>
             alt="WhatsApp"
             class="w-full h-full object-contain"
           />
-        </a>
+        </a> -->
 
-        <!-- Email visible desde lg -->
+        <!-- Email y teléfono -->
         <div
           class="border-1 border-blue-600 text-blue-600 px-4 py-2 rounded flex flex-col"
         >
@@ -119,11 +123,12 @@ onBeforeUnmount(() =>
             <Phone class="w-4 h-4" /> 937261011
           </a>
         </div>
-        <p
-          class="bg-blue-500 text-white border border-blue-700 px-4 py-2 rounded whitespace-nowrap"
+        <NuxtLinkLocale
+          to="/contact"
+          class="bg-blue-500 text-white border border-blue-700 px-4 py-2 rounded whitespace-nowrap hover:bg-blue-600 transition-colors"
         >
           {{ $t("nav.info") }}
-        </p>
+        </NuxtLinkLocale>
 
         <!-- Idioma -->
         <div class="relative group">
@@ -148,12 +153,12 @@ onBeforeUnmount(() =>
         </div>
       </div>
 
-      <!-- WhatsApp: SOLO mobile, fuera de la hamburguesa -->
-      <!-- TODO: cambiar número por el real antes de publicar -->
-      <a
+      <!-- WhatsApp: SOLO móvil/tablet (< lg), fuera de la hamburguesa -->
+      <!-- TODO: Whats -->
+      <!-- <a
         :href="`https://wa.me/34${telefono}`"
         target="_blank"
-        class="lg:hidden shrink-0 w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center hover:scale-110 transition-transform"
+        class="lg:hidden shrink-0 w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center hover:scale-110 transition-transform"
         aria-label="Contactar por WhatsApp"
       >
         <img
@@ -161,7 +166,7 @@ onBeforeUnmount(() =>
           alt="WhatsApp"
           class="w-full h-full object-contain"
         />
-      </a>
+      </a> -->
 
       <!-- ===== HAMBURGUESA (< lg) ===== -->
       <button
@@ -173,9 +178,6 @@ onBeforeUnmount(() =>
         <Menu v-else class="w-6 h-6" />
       </button>
     </div>
-
-    <!-- ===== TODO: BORRAR FONDO OSCURECIDO (click para cerrar) ===== -->
-    <!-- <div v-if="mobileOpen" class="fixed inset-0 bg-black/50 z-40 lg:hidden" @click="closeMobile"></div> -->
 
     <!-- ===== PANEL OVERLAY (< lg): se superpone, no empuja ===== -->
     <div
@@ -217,7 +219,7 @@ onBeforeUnmount(() =>
         </div>
 
         <NuxtLinkLocale
-          to="/"
+          to="/contact"
           @click="closeMobile"
           class="py-3 px-3 rounded hover:bg-blue-50 hover:text-blue-700 transition-colors"
         >
@@ -231,7 +233,7 @@ onBeforeUnmount(() =>
           <Mail class="w-4 h-4" /> info@granvalles.es
         </a>
         <a
-          href="tel:+34937261011"
+          :href="`tel:+34${telefono}`"
           class="mt-2 bg-blue-600 text-white px-4 py-3 rounded flex gap-2 justify-center"
         >
           <Phone class="w-4 h-4" /> 937261011

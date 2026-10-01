@@ -19,27 +19,27 @@
       "readMore": "Más información",
       "items": [
         {
-          "slug": "hores",
+          "section": "hour",
           "title": "Cuidador por horas",
           "text": "Acompañamiento y atención en el hogar durante las horas que necesite, en el momento del día que mejor le convenga."
         },
         {
-          "slug": "mig-dia",
+          "section": "halfDay",
           "title": "Cuidador medio día",
           "text": "Atención durante la mañana o la tarde, ideal para cubrir las horas en que la familia no puede estar presente."
         },
         {
-          "slug": "nit",
+          "section": "night",
           "title": "Cuidador de noche",
           "text": "Vela y acompañamiento durante la noche, para que la persona esté bien atendida y la familia pueda descansar."
         },
         {
-          "slug": "caps-de-setmana",
+          "section": "weekend",
           "title": "Cuidador fines de semana",
           "text": "Cobertura los sábados y domingos, para que la familia pueda tener tiempo para usted."
         },
         {
-          "slug": "intern",
+          "section": "liveIn",
           "title": "Cuidador interno",
           "text": "Un cuidador que vive en casa y ofrece atención continuada, de día y de noche."
         }

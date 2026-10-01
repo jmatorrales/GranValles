@@ -61,7 +61,7 @@ useSeoMeta({
       <p class="mt-3 max-w-3xl">{{ t('services.types.intro') }}</p>
 
       <ul class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <li v-for="item in types" :key="rt(item.slug)">
+        <li v-for="item in types" :key="rt(item.section)">
           <NuxtLink
             :to="localePath('/services/caregiverTypes')"
             class="group flex h-full flex-col rounded-2xl border-2 border-blue-100 bg-white p-6 shadow-sm transition hover:border-blue-600 hover:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300"
