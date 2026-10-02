@@ -42,8 +42,7 @@
       "items": [
         { "label": "Avís legal", "to": "/legal" },
         { "label": "Política de privadesa", "to": "/privacy" },
-        { "label": "Política de cookies", "to": "/cookies" },
-        { "label": "Contacte", "to": "/contact" }
+        { "label": "Política de cookies", "to": "/cookies" }
       ]
     }
   }

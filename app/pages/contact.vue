@@ -5,4 +5,5 @@ const { t } = useI18n()
 <template>
   <h1>{{ t('nav.contact') }}</h1>
   <!-- resto del contenido -->
+   <ContactForm/>
 </template>

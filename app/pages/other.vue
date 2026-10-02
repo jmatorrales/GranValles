@@ -142,10 +142,10 @@ useSeoMeta({
       <p class="mx-auto mt-3 max-w-2xl">{{ t('services.help.text') }}</p>
       <div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
         <!-- TODO: REVISAR CLASES -->
-        <a v-if="PHONE" :href="phoneHref" class="bg-blue-800 text-white hover:bg-blue-900 focus-visible:ring-blue-300 inline-flex min-h-[3.5rem] items-center justify-center rounded-full px-8 text-xl font-bold transition focus:outline-none focus-visible:ring-4">
+        <a v-if="PHONE" :href="phoneHref" class="bg-blue-400 text-white hover:bg-blue-600 inline-flex min-h-[3.5rem] items-center rounded-full px-8 text-xl font-bold transition">
           {{ t('services.cta.call') }} {{ PHONE }}
         </a>
-        <NuxtLink :to="localePath(CONTACT_PATH)" class="inline-flex min-h-[3.5rem] items-center justify-center rounded-full px-8 text-xl font-bold transition focus:outline-none focus-visible:ring-4 border-2 border-blue-800 text-blue-900 hover:bg-blue-50 focus-visible:ring-blue-300">
+        <NuxtLink :to="localePath(CONTACT_PATH)" class="inline-flex min-h-[3.5rem] items-center rounded-full px-8 text-xl font-bold border-2 border-blue-600 text-blue-700 hover:bg-blue-50">
           {{ t('services.cta.form') }}
         </NuxtLink>
       </div>
