@@ -1,7 +1,7 @@
 <template>
   <!-- Sección principal del formulario -->
-  <div class="w-full py-0 md:py-4 bg-[#4C6FE1]">
-    <p class="text-center text-white text-3xl md:text-4xl p-4 md:p-8">
+  <div class="w-full py-0 md:py-4 bg-blue-700">
+    <p class="text-center text-white text-3xl font-bold md:text-4xl p-4 md:p-8">
       {{ $t("home.form.title") }}
     </p>
 
@@ -22,7 +22,7 @@
 
       <!-- Formulario -->
       <div
-        class="order-2 md:order-1 w-full md:w-auto flex justify-center items-center bg-blue-50 rounded-none md:rounded-lg px-8 py-6 md:p-8"
+        class="order-2 md:order-1 w-full md:w-auto flex justify-center items-center bg-blue-200 rounded-none md:rounded-lg px-8 py-6 md:p-8"
       >
         <form @submit.prevent="sendForm" class="flex flex-col gap-5 w-full">
           <!-- Datos del cliente -->

@@ -1,0 +1,48 @@
+{
+  "advisory": {
+    "title": "Comprehensive employment advisory",
+    "subtitle": "We handle all the paperwork so you can focus on what matters most.",
+    "intro": "Hiring a caregiver involves legal and administrative procedures. At GRAN VALLÈS ASSISTENCIAL, we take care of them for you:",
+    "tasks": {
+      "socialSecurity": { "title": "Social Security", "text": "Registrations, terminations and data changes under the Special Regime for Household Employment." },
+      "accountCode": { "title": "Contribution account code", "text": "Assigned to you as the employer." },
+      "contract": { "title": "Employment contract", "text": "Drafting and formalisation." },
+      "payroll": { "title": "Payroll", "text": "Monthly payroll management." },
+      "substitutes": { "title": "Guaranteed cover", "text": "Uninterrupted care at all times." },
+      "replacement": { "title": "Caregiver replacement", "text": "Whenever it is needed." }
+    },
+    "commitment": "Your peace of mind is our commitment.",
+    "adapt": {
+      "title": "We adapt to your needs",
+      "intro": "Choose the arrangement that best suits your situation:",
+      "groups": {
+        "schedule": {
+          "title": "By schedule",
+          "items": {
+            "fullTime": "Full time",
+            "morning": "Part time (mornings)",
+            "afternoon": "Part time (afternoons)",
+            "hourly": "Hourly",
+            "night": "Night shift",
+            "weekends": "Weekends"
+          }
+        },
+        "service": {
+          "title": "By type of service",
+          "items": {
+            "liveInOut": "Live-in or live-out",
+            "couples": "Live-in couples"
+          }
+        },
+        "cover": {
+          "title": "Temporary cover",
+          "items": {
+            "employeeLeave": "Employee sick leave or holidays",
+            "familyHoliday": "Family holidays",
+            "hospital": "Hospital stays"
+          }
+        }
+      }
+    }
+  }
+}

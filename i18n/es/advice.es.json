@@ -1,0 +1,48 @@
+{
+  "advisory": {
+    "title": "Asesoramiento laboral integral",
+    "subtitle": "Nos encargamos de todos los trámites para que usted solo se preocupe de lo importante.",
+    "intro": "Contratar a un cuidador implica gestiones legales y administrativas. En GRAN VALLÈS ASSISTENCIAL las realizamos por usted:",
+    "tasks": {
+      "socialSecurity": { "title": "Seguridad Social", "text": "Altas, bajas y variaciones de datos en el Régimen Especial del Hogar Familiar." },
+      "accountCode": { "title": "Código de cuenta de cotización", "text": "Asignación como empleador." },
+      "contract": { "title": "Contrato laboral", "text": "Elaboración y formalización." },
+      "payroll": { "title": "Nóminas", "text": "Gestión mensual de las nóminas." },
+      "substitutes": { "title": "Suplencias garantizadas", "text": "Sin interrupciones en la atención." },
+      "replacement": { "title": "Sustitución del auxiliar", "text": "Cuando sea necesario." }
+    },
+    "commitment": "Su tranquilidad es nuestro compromiso.",
+    "adapt": {
+      "title": "Nos adaptamos a sus necesidades",
+      "intro": "Elija la modalidad que mejor encaje con su situación:",
+      "groups": {
+        "schedule": {
+          "title": "Por horario",
+          "items": {
+            "fullTime": "Jornada completa",
+            "morning": "Media jornada mañana",
+            "afternoon": "Media jornada tarde",
+            "hourly": "Por horas",
+            "night": "Jornada nocturna",
+            "weekends": "Fines de semana"
+          }
+        },
+        "service": {
+          "title": "Por tipo de servicio",
+          "items": {
+            "liveInOut": "Internos o externos",
+            "couples": "Matrimonios internos"
+          }
+        },
+        "cover": {
+          "title": "Cobertura puntual",
+          "items": {
+            "employeeLeave": "Bajas o vacaciones del empleado",
+            "familyHoliday": "Vacaciones de la familia",
+            "hospital": "Hospitalización"
+          }
+        }
+      }
+    }
+  }
+}
