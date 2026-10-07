@@ -1,0 +1,29 @@
+{
+  "followup": {
+    "title": "Seguimiento y suplencias",
+    "subtitle": "Acompañamos cada servicio y nos aseguramos de que nunca se quede sin atención.",
+    "intro": "Nuestro trabajo no termina cuando empieza el servicio. Estamos a su lado para que todo fluya de la mejor manera posible.",
+    "stats": {
+      "changes": { "value": "3", "label": "cambios de auxiliar sin coste en el primer mes" },
+      "cost": { "value": "0 €", "label": "de coste adicional en las suplencias" },
+      "monthly": { "value": "Mensual", "label": "seguimiento de todos nuestros servicios" }
+    },
+    "guarantees": {
+      "title": "Nuestras garantías",
+      "items": {
+        "followup": { "title": "Seguimiento mensualizado", "text": "Hacemos seguimiento mensual de todos nuestros servicios para que todo fluya de la mejor manera posible." },
+        "changes": { "title": "Hasta 3 cambios de auxiliar", "text": "Dentro del primer mes y sin ningún coste adicional, si finalmente la auxiliar no se adecua al perfil que usted esperaba." },
+        "substitute": { "title": "Suplencia rápida garantizada", "text": "Si es necesario, le proporcionamos un sustituto o sustituta con garantía en la mayor brevedad posible." }
+      }
+    },
+    "substitutes": {
+      "title": "Siempre cubiertos, sin coste adicional",
+      "text": "Gran Vallès Assistencial se encarga de proporcionarle un sustituto o sustituta con garantía lo antes posible y sin ningún coste adicional, en cualquiera de estos casos:",
+      "reasons": {
+        "leave": "Bajas temporales",
+        "holidays": "Vacaciones",
+        "other": "Cualquier otro motivo"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "selection": {
+    "title": "Selección de personal",
+    "subtitle": "Más de 17 años seleccionando auxiliares de confianza para el cuidado de personas mayores en su domicilio.",
+    "intro": "Confiar el cuidado de un ser querido exige personas de confianza. Por eso todas nuestras auxiliares pasan por un proceso de selección exhaustivo.",
+    "stats": {
+      "years": { "value": "+17", "label": "años seleccionando personal para el cuidado de mayores" },
+      "accredited": { "value": "+15", "label": "años acreditados como agencia de colocación" },
+      "interviewed": { "value": "100%", "label": "de las candidatas entrevistadas personalmente" }
+    },
+    "requirements": {
+      "title": "Lo que exigimos a todas nuestras auxiliares",
+      "items": {
+        "experience": { "title": "Amplia experiencia", "text": "Trayectoria demostrable en el cuidado de personas mayores." },
+        "references": { "title": "Referencias contrastadas", "text": "Hablamos con anteriores empleadores para confirmar su trabajo." },
+        "letters": { "title": "Cartas de recomendación verificadas", "text": "Comprobamos que cada carta es auténtica." },
+        "interview": { "title": "Entrevista personal", "text": "Entrevistamos a todas y cada una de las candidatas y pasan por un proceso de selección exhaustivo." }
+      }
+    },
+    "accreditation": {
+      "title": "Agencia de colocación acreditada",
+      "text": "Estamos acreditados por la Generalitat de Catalunya desde hace más de 15 años."
+    },
+    "trust": {
+      "title": "Profesionales que ya conocemos",
+      "text": "A la mayoría las hemos seleccionado durante muchos años para trabajar con distintas familias, por lo que podemos asegurar su buen desempeño."
+    },
+    "schedules": {
+      "title": "Seleccionamos en todos los horarios",
+      "intro": "Encontramos a la auxiliar que mejor se adapta a las necesidades de su familia:"
+    }
+  }
+}

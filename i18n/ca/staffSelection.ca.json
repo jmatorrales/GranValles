@@ -1,0 +1,33 @@
+{
+  "selection": {
+    "title": "Selecció de personal",
+    "subtitle": "Més de 20 anys seleccionant auxiliars de confiança per a la cura de persones grans al seu domicili.",
+    "intro": "Confiar la cura d'un ésser estimat exigeix persones de confiança. Per això totes les nostres auxiliars passen per un procés de selecció exhaustiu.",
+    "stats": {
+      "years": { "value": "+20", "label": "anys seleccionant personal per a la cura de gent gran" },
+      "accredited": { "value": "+15", "label": "anys acreditats com a agència de col·locació" },
+      "interviewed": { "value": "100%", "label": "de les candidates entrevistades personalment" }
+    },
+    "requirements": {
+      "title": "El que exigim a totes les nostres auxiliars",
+      "items": {
+        "experience": { "title": "Àmplia experiència", "text": "Trajectòria demostrable en la cura de persones grans." },
+        "references": { "title": "Referències contrastades", "text": "Parlem amb anteriors ocupadors per confirmar la seva feina." },
+        "letters": { "title": "Cartes de recomanació verificades", "text": "Comprovem que cada carta és autèntica." },
+        "interview": { "title": "Entrevista personal", "text": "Entrevistem totes i cadascuna de les candidates, i passen per un procés de selecció exhaustiu." }
+      }
+    },
+    "accreditation": {
+      "title": "Agència de col·locació acreditada",
+      "text": "Estem acreditats per la Generalitat de Catalunya des de fa més de 15 anys."
+    },
+    "trust": {
+      "title": "Professionals que ja coneixem",
+      "text": "A la majoria les hem seleccionat durant molts anys per treballar amb diferents famílies, i per això podem assegurar el seu bon acompliment."
+    },
+    "schedules": {
+      "title": "Seleccionem en tots els horaris",
+      "intro": "Trobem l'auxiliar que millor s'adapta a les necessitats de la seva família:"
+    }
+  }
+}

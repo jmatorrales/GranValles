@@ -1,0 +1,29 @@
+{
+  "followup": {
+    "title": "Seguiment i suplències",
+    "subtitle": "Acompanyem cada servei i ens assegurem que mai es quedi sense atenció.",
+    "intro": "La nostra feina no acaba quan comença el servei. Som al seu costat perquè tot flueixi de la millor manera possible.",
+    "stats": {
+      "changes": { "value": "3", "label": "canvis d'auxiliar sense cost durant el primer mes" },
+      "cost": { "value": "0 €", "label": "de cost addicional en les suplències" },
+      "monthly": { "value": "Mensual", "label": "seguiment de tots els nostres serveis" }
+    },
+    "guarantees": {
+      "title": "Les nostres garanties",
+      "items": {
+        "followup": { "title": "Seguiment mensualitzat", "text": "Fem seguiment mensual de tots els nostres serveis perquè tot flueixi de la millor manera possible." },
+        "changes": { "title": "Fins a 3 canvis d'auxiliar", "text": "Dins del primer mes i sense cap cost addicional, si finalment l'auxiliar no s'adequa al perfil que vostè esperava." },
+        "substitute": { "title": "Suplència ràpida garantida", "text": "Si cal, li proporcionem un substitut o substituta amb garantia amb la màxima brevetat possible." }
+      }
+    },
+    "substitutes": {
+      "title": "Sempre coberts, sense cost addicional",
+      "text": "Gran Vallès Assistencial s'encarrega de proporcionar-li un substitut o substituta amb garantia el més aviat possible i sense cap cost addicional, en qualsevol d'aquests casos:",
+      "reasons": {
+        "leave": "Baixes temporals",
+        "holidays": "Vacances",
+        "other": "Qualsevol altre motiu"
+      }
+    }
+  }
+}

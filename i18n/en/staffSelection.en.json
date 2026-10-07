@@ -1,0 +1,33 @@
+{
+  "selection": {
+    "title": "Staff selection",
+    "subtitle": "Over 17 years selecting trusted caregivers for elderly care at home.",
+    "intro": "Entrusting a loved one's care requires people you can trust. That is why every caregiver goes through a thorough selection process.",
+    "stats": {
+      "years": { "value": "17+", "label": "years selecting staff for elderly care" },
+      "accredited": { "value": "15+", "label": "years accredited as an employment agency" },
+      "interviewed": { "value": "100%", "label": "of candidates interviewed in person" }
+    },
+    "requirements": {
+      "title": "What we require from every caregiver",
+      "items": {
+        "experience": { "title": "Extensive experience", "text": "Proven track record in caring for elderly people." },
+        "references": { "title": "Checked references", "text": "We speak with previous employers to confirm their work." },
+        "letters": { "title": "Verified recommendation letters", "text": "We check that each letter is genuine." },
+        "interview": { "title": "Personal interview", "text": "We interview every single candidate, and each one goes through a thorough selection process." }
+      }
+    },
+    "accreditation": {
+      "title": "Accredited employment agency",
+      "text": "We have been accredited by the Generalitat de Catalunya for over 15 years."
+    },
+    "trust": {
+      "title": "Professionals we already know",
+      "text": "We have selected most of them over many years to work with different families, so we can vouch for their performance."
+    },
+    "schedules": {
+      "title": "We select for every schedule",
+      "intro": "We find the caregiver who best fits your family's needs:"
+    }
+  }
+}

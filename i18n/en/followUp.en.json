@@ -1,0 +1,29 @@
+{
+  "followup": {
+    "title": "Follow-up and cover",
+    "subtitle": "We support every service and make sure you are never left without care.",
+    "intro": "Our work does not end when the service begins. We are by your side so that everything runs as smoothly as possible.",
+    "stats": {
+      "changes": { "value": "3", "label": "free caregiver changes in the first month" },
+      "cost": { "value": "€0", "label": "extra cost for replacements" },
+      "monthly": { "value": "Monthly", "label": "follow-up of all our services" }
+    },
+    "guarantees": {
+      "title": "Our guarantees",
+      "items": {
+        "followup": { "title": "Monthly follow-up", "text": "We follow up on all our services every month so that everything runs as smoothly as possible." },
+        "changes": { "title": "Up to 3 caregiver changes", "text": "Within the first month and at no extra cost, if the caregiver turns out not to match the profile you expected." },
+        "substitute": { "title": "Fast guaranteed cover", "text": "If needed, we provide a guaranteed replacement as quickly as possible." }
+      }
+    },
+    "substitutes": {
+      "title": "Always covered, at no extra cost",
+      "text": "Gran Vallès Assistencial will provide a guaranteed replacement as soon as possible and at no extra cost, in any of these cases:",
+      "reasons": {
+        "leave": "Temporary sick leave",
+        "holidays": "Holidays",
+        "other": "Any other reason"
+      }
+    }
+  }
+}

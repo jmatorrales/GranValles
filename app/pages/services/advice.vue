@@ -56,7 +56,7 @@ const groups = [
             <li v-for="task in tasks" :key="task" class="flex gap-4">
               <!-- Icono check -->
               <span
-                class="mt-1 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-700"
+                class="mt-1 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-700"
               >
                 <svg viewBox="0 0 20 20" fill="currentColor" class="h-4 w-4" aria-hidden="true">
                   <path
@@ -91,7 +91,7 @@ const groups = [
 
       <!-- Compromiso destacado -->
       <p
-        class="mt-12 rounded-xl border-l-4 border-emerald-600 bg-emerald-50 px-6 py-4 text-lg font-semibold italic text-gray-800"
+        class="mt-12 rounded-xl border-l-4 border-blue-600 bg-blue-50 px-6 py-4 text-lg font-semibold italic text-gray-800"
       >
         {{ t("advisory.commitment") }}
       </p>
@@ -114,7 +114,7 @@ const groups = [
             <h3 class="text-lg font-semibold text-gray-900">
               {{ t(`advisory.adapt.groups.${group.key}.title`) }}
             </h3>
-            <ul class="mt-3 list-disc space-y-1.5 pl-5 text-gray-600 marker:text-emerald-600">
+            <ul class="mt-3 list-disc space-y-1.5 pl-5 text-gray-600 marker:text-blue-600">
               <li v-for="item in group.items" :key="item">
                 {{ t(`advisory.adapt.groups.${group.key}.items.${item}`) }}
               </li>
