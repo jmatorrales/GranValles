@@ -1,0 +1,31 @@
+{
+  "bringCaregiver": {
+    "title": "Bring your own caregiver",
+    "subtitle": "Already have a caregiver, or about to hire one? We make sure everything is in order.",
+    "intro": "The \"Bring your own caregiver\" service is designed for people who already have a caregiver at home, or who are about to hire one on their own, and would like the advice of an expert company.",
+    "forWho": {
+      "title": "Who is this service for?",
+      "items": {
+        "has": { "title": "You already have a caregiver at home", "text": "We regularise the contract and take care of the legal procedures so everything is in order." },
+        "hiring": { "title": "You are about to hire one on your own", "text": "We advise you from the start, with every legal aspect taken into account." }
+      }
+    },
+    "services": {
+      "title": "We help you with everything",
+      "items": {
+        "legal": { "title": "Legal aspects covered", "text": "We take into account every legal aspect of the hiring process." },
+        "contract": { "title": "Contract regularisation", "text": "We formalise your caregiver's contract so everything is above board." },
+        "procedures": { "title": "Legal procedures", "text": "We handle the paperwork so you don't have to." },
+        "support": { "title": "Expert advice", "text": "You have the backing of a company specialised in elderly care." }
+      }
+    },
+    "support": {
+      "title": "Peace of mind and support",
+      "text": "With \"Bring your own caregiver\" you have the support and follow-up of social and healthcare professionals and specialists."
+    },
+    "cta": {
+      "title": "Want to regularise your caregiver?",
+      "text": "Tell us about your situation and we will advise you with no obligation."
+    }
+  }
+}

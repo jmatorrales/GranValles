@@ -1,0 +1,43 @@
+{
+  "caregiver": {
+    "title": "Servicio de cuidador/a",
+    "subtitle": "Atención profesional y cualificada para que cada persona disfrute de más confort y calidad de vida.",
+    "intro": {
+      "title": "¿A quién va dirigido?",
+      "audience": "El servicio de cuidador/auxiliar va dirigido a personas que presentan desde una dependencia moderada hasta aquellas que ya son grandes dependientes, y que requieren en sus cuidados diarios la atención de personal profesional y cualificado.",
+      "goal": "Nuestro principal objetivo es que las personas disfruten de un mayor confort y calidad de vida, sea cual sea su grado de dependencia."
+    },
+    "tasks": {
+      "title": "¿De qué se encarga el cuidador/a?",
+      "items": {
+        "autonomy": { "title": "Autonomía y autoestima", "text": "Ayuda a mantener el mayor grado de autonomía y autoestima posible." },
+        "companionship": { "title": "Atención y compañía", "text": "Atender, pasear, hacer compañía, acompañar a visitas médicas, etc." },
+        "stimulation": { "title": "Estimulación cognitiva", "text": "Ayuda en la realización de ejercicios básicos de estimulación para ralentizar el deterioro cognitivo, en caso necesario." },
+        "hygiene": { "title": "Aseo personal", "text": "Baño en cama o ducha, cambio de ropa y pañal, afeitado, lavado y peinado del cabello, higiene de la boca y labios, cuidado de la piel y prevención de úlceras por presión." },
+        "mobility": { "title": "Apoyo a la movilización", "text": "Levantar y acostar, traslados de posición y ubicación, y ayuda a la movilidad por las dependencias del domicilio." },
+        "nutrition": { "title": "Alimentación y medicación", "text": "Ayuda a la ingesta de alimentos y control de la medicación, asegurando la toma correcta (siempre con receta médica)." },
+        "home": { "title": "Atención doméstica", "text": "Apoyo en tareas domésticas, compras y preparación de comidas, con menús adaptados a las necesidades dietéticas de la persona." },
+        "hospital": { "title": "Hospitales y residencias", "text": "Se desplaza al hospital o residencia para atender las necesidades que el servicio básico de la institución no puede cubrir: pasear, hacer compañía o cualquier otra necesidad." }
+      }
+    },
+    "schedules": {
+      "title": "Tipos de jornada",
+      "intro": "Nos adaptamos a todas las necesidades. Elija la modalidad que mejor encaje con su situación:"
+    },
+    "hourly": {
+      "title": "¿Cómo funciona el servicio de cuidado de personas mayores por horas?",
+      "items": {
+        "minimum": { "title": "Desde 2 horas al día", "text": "Servicio desde 2 horas al día, 5 días a la semana." },
+        "followup": { "title": "Seguimiento personalizado", "text": "Con psicólogos, terapeutas ocupacionales y trabajadores sociales." },
+        "admin": { "title": "Gestión administrativa incluida", "text": "Nos encargamos de la contratación, el alta en la Seguridad Social, las nóminas, etc." },
+        "professional": { "title": "El profesional más adecuado", "text": "Seleccionamos al profesional que mejor encaja con cada caso." },
+        "technology": { "title": "Tecnología en evolución", "text": "Usamos tecnología en constante evolución." },
+        "assessment": { "title": "Valoración integral y PTI", "text": "Realizamos una valoración integral y elaboramos un Plan de Trabajo Individual (PTI)." }
+      }
+    },
+    "cta": {
+      "title": "Entendemos sus necesidades",
+      "text": "Cuéntenos su caso y le propondremos la solución que mejor se adapte."
+    }
+  }
+}

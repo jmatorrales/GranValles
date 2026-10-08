@@ -1,0 +1,31 @@
+{
+  "bringCaregiver": {
+    "title": "Porta el teu cuidador/a",
+    "subtitle": "Ja té cuidadora o està a punt de contractar-la? Ens encarreguem que tot estigui en regla.",
+    "intro": "El servei «Porta la teva cuidadora» està pensat per a les persones que ja tenen una cuidadora a casa, o que estan a punt de contractar-la pel seu compte, i volen comptar amb l'assessorament d'una empresa experta.",
+    "forWho": {
+      "title": "Per a qui és aquest servei?",
+      "items": {
+        "has": { "title": "Ja té una cuidadora a casa", "text": "Regularitzem el seu contracte i ens ocupem dels tràmits legals perquè tot estigui en ordre." },
+        "hiring": { "title": "Està a punt de contractar-ne una pel seu compte", "text": "L'assessorem des del principi, amb tots els aspectes legals tinguts en compte." }
+      }
+    },
+    "services": {
+      "title": "L'ajudem amb tot",
+      "items": {
+        "legal": { "title": "Aspectes legals coberts", "text": "Tenim en compte tots els aspectes legals de la contractació." },
+        "contract": { "title": "Regularització del contracte", "text": "Formalitzem el contracte de la seva cuidadora perquè tot estigui en regla." },
+        "procedures": { "title": "Tràmits legals", "text": "Ens ocupem de les gestions perquè vostè no les hagi de fer." },
+        "support": { "title": "Assessorament expert", "text": "Compta amb el suport d'una empresa especialitzada en la cura de persones grans." }
+      }
+    },
+    "support": {
+      "title": "Tranquil·litat i acompanyament",
+      "text": "Amb «Porta la teva cuidadora» compta amb l'acompanyament i el seguiment de professionals i especialistes sociosanitaris."
+    },
+    "cta": {
+      "title": "Vol regularitzar la seva cuidadora?",
+      "text": "Expliqui'ns la seva situació i l'assessorarem sense compromís."
+    }
+  }
+}

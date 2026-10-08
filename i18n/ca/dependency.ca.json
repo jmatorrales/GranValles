@@ -1,0 +1,30 @@
+{
+  "dependency": {
+    "title": "Ajuda a la dependència",
+    "subtitle": "L'acompanyem en els tràmits per sol·licitar la prestació econòmica de la dependència.",
+    "intro": "Si li han atorgat un grau de dependència i vol sol·licitar una prestació econòmica, no ho ha de fer sol. Ens encarreguem d'ajudar-lo amb les gestions.",
+    "help": {
+      "title": "L'ajudem amb els tràmits",
+      "steps": {
+        "grade": { "title": "Té un grau de dependència reconegut", "text": "És el punt de partida per poder sol·licitar la prestació econòmica de la dependència." },
+        "guidance": { "title": "L'orientem i l'ajudem", "text": "Li expliquem què cal fer i l'ajudem a realitzar els tràmits." },
+        "social": { "title": "Tramitació als serveis socials", "text": "Les gestions es fan a través dels serveis socials del seu barri o municipi." }
+      }
+    },
+    "services": {
+      "title": "Serveis que fan les nostres auxiliars",
+      "intro": "Cures i suport en el dia a dia, adaptats a les necessitats de cada persona:",
+      "items": {
+        "hygiene": { "title": "Higiene personal completa", "text": "Higiene i cura personal diària, amb respecte i atenció." },
+        "medication": { "title": "Control de medicació", "text": "Supervisió de la presa de medicació segons les pautes indicades." },
+        "mobility": { "title": "Mobilitzacions", "text": "Aixecar i ajeure, transferències del llit a la cadira, etc." },
+        "company": { "title": "Companyia, vigilància i passeig", "text": "Presència, atenció i sortides perquè la persona se senti acompanyada i segura." },
+        "home": { "title": "Manteniment de la llar", "text": "Fer els llits, compres, preparació de menjars, neteja general del domicili, neteges a fons, etc." }
+      }
+    },
+    "cta": {
+      "title": "Té dubtes sobre la dependència?",
+      "text": "Expliqui'ns el seu cas i l'informarem sense compromís."
+    }
+  }
+}

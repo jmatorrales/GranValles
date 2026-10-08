@@ -1,0 +1,43 @@
+{
+  "caregiver": {
+    "title": "Servei de cuidador/a",
+    "subtitle": "Atenció professional i qualificada perquè cada persona gaudeixi de més confort i qualitat de vida.",
+    "intro": {
+      "title": "A qui va dirigit?",
+      "audience": "El servei de cuidador/auxiliar va dirigit a persones que presenten des d'una dependència moderada fins a les que ja són grans dependents, i que requereixen en les seves cures diàries l'atenció de personal professional i qualificat.",
+      "goal": "El nostre principal objectiu és que les persones gaudeixin d'un major confort i qualitat de vida, sigui quin sigui el seu grau de dependència."
+    },
+    "tasks": {
+      "title": "De què s'encarrega el cuidador/a?",
+      "items": {
+        "autonomy": { "title": "Autonomia i autoestima", "text": "Ajuda a mantenir el màxim grau d'autonomia i autoestima possible." },
+        "companionship": { "title": "Atenció i companyia", "text": "Atendre, passejar, fer companyia, acompanyar a visites mèdiques, etc." },
+        "stimulation": { "title": "Estimulació cognitiva", "text": "Ajuda en la realització d'exercicis bàsics d'estimulació per alentir el deteriorament cognitiu, si cal." },
+        "hygiene": { "title": "Higiene personal", "text": "Bany al llit o dutxa, canvi de roba i bolquer, afaitat, rentat i pentinat dels cabells, higiene de la boca i dels llavis, cura de la pell i prevenció d'úlceres per pressió." },
+        "mobility": { "title": "Suport a la mobilització", "text": "Aixecar i ajeure, trasllats de posició i ubicació, i ajuda a la mobilitat per les dependències del domicili." },
+        "nutrition": { "title": "Alimentació i medicació", "text": "Ajuda a la ingesta d'aliments i control de la medicació, assegurant la presa correcta (sempre amb recepta mèdica)." },
+        "home": { "title": "Atenció domèstica", "text": "Suport en tasques domèstiques, compres i preparació de menjars, amb menús adaptats a les necessitats dietètiques de la persona." },
+        "hospital": { "title": "Hospitals i residències", "text": "Es desplaça a l'hospital o residència per atendre les necessitats que el servei bàsic de la institució no pot cobrir: passejar, fer companyia o qualsevol altra necessitat." }
+      }
+    },
+    "schedules": {
+      "title": "Tipus de jornada",
+      "intro": "Ens adaptem a totes les necessitats. Triï la modalitat que millor s'ajusti a la seva situació:"
+    },
+    "hourly": {
+      "title": "Com funciona el servei de cura de persones grans per hores?",
+      "items": {
+        "minimum": { "title": "Des de 2 hores al dia", "text": "Servei des de 2 hores al dia, 5 dies a la setmana." },
+        "followup": { "title": "Seguiment personalitzat", "text": "Amb psicòlegs, terapeutes ocupacionals i treballadors socials." },
+        "admin": { "title": "Gestió administrativa inclosa", "text": "Ens encarreguem de la contractació, l'alta a la Seguretat Social, les nòmines, etc." },
+        "professional": { "title": "El professional més adequat", "text": "Seleccionem el professional que millor encaixa amb cada cas." },
+        "technology": { "title": "Tecnologia en evolució", "text": "Fem servir tecnologia en constant evolució." },
+        "assessment": { "title": "Valoració integral i PTI", "text": "Fem una valoració integral i elaborem un Pla de Treball Individual (PTI)." }
+      }
+    },
+    "cta": {
+      "title": "Entenem les seves necessitats",
+      "text": "Expliqui'ns el seu cas i li proposarem la solució que millor s'adapti."
+    }
+  }
+}

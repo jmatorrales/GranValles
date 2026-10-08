@@ -1,0 +1,30 @@
+{
+  "dependency": {
+    "title": "Dependency support",
+    "subtitle": "We guide you through the process of applying for the dependency financial benefit.",
+    "intro": "If you have been granted a level of dependency and want to apply for a financial benefit, you don't have to do it alone. We help you with the paperwork.",
+    "help": {
+      "title": "We help you with the paperwork",
+      "steps": {
+        "grade": { "title": "You have a recognised level of dependency", "text": "This is the starting point for applying for the dependency financial benefit." },
+        "guidance": { "title": "We guide and support you", "text": "We explain what needs to be done and help you complete the procedures." },
+        "social": { "title": "Processed through social services", "text": "The procedures are carried out through the social services of your neighbourhood or municipality." }
+      }
+    },
+    "services": {
+      "title": "Services provided by our caregivers",
+      "intro": "Daily care and support, adapted to each person's needs:",
+      "items": {
+        "hygiene": { "title": "Full personal hygiene", "text": "Daily washing and personal care, with respect and attention." },
+        "medication": { "title": "Medication management", "text": "Supervising medication intake according to the prescribed schedule." },
+        "mobility": { "title": "Mobility assistance", "text": "Getting up and into bed, transfers from bed to chair, etc." },
+        "company": { "title": "Companionship, supervision and walks", "text": "Presence, attention and outings so the person feels accompanied and safe." },
+        "home": { "title": "Home maintenance", "text": "Making beds, shopping, preparing meals, general housecleaning, deep cleaning, etc." }
+      }
+    },
+    "cta": {
+      "title": "Questions about dependency?",
+      "text": "Tell us about your case and we will advise you with no obligation."
+    }
+  }
+}

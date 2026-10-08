@@ -1,0 +1,30 @@
+{
+  "dependency": {
+    "title": "Ayuda a la dependencia",
+    "subtitle": "Le acompañamos en los trámites para solicitar la prestación económica de la dependencia.",
+    "intro": "Si le han otorgado un grado de dependencia y quiere solicitar una prestación económica, no tiene que hacerlo solo. Nos encargamos de ayudarle con las gestiones.",
+    "help": {
+      "title": "Le ayudamos con los trámites",
+      "steps": {
+        "grade": { "title": "Tiene un grado de dependencia reconocido", "text": "Es el punto de partida para poder solicitar la prestación económica de la dependencia." },
+        "guidance": { "title": "Le orientamos y le ayudamos", "text": "Le explicamos qué hay que hacer y le ayudamos a realizar los trámites." },
+        "social": { "title": "Tramitación en los servicios sociales", "text": "Las gestiones se realizan a través de los servicios sociales de su barrio o municipio." }
+      }
+    },
+    "services": {
+      "title": "Servicios que realizan nuestras auxiliares",
+      "intro": "Cuidados y apoyo en el día a día, adaptados a las necesidades de cada persona:",
+      "items": {
+        "hygiene": { "title": "Higiene personal completa", "text": "Aseo y cuidado personal diario, con respeto y atención." },
+        "medication": { "title": "Control de medicación", "text": "Supervisión de la toma de medicación según las pautas indicadas." },
+        "mobility": { "title": "Movilizaciones", "text": "Levantar y acostar, transferencias de la cama a la silla, etc." },
+        "company": { "title": "Compañía, vigilancia y paseo", "text": "Presencia, atención y salidas para que la persona se sienta acompañada y segura." },
+        "home": { "title": "Mantenimiento del hogar", "text": "Hacer las camas, compras, preparación de comidas, limpieza general del domicilio, limpiezas a fondo, etc." }
+      }
+    },
+    "cta": {
+      "title": "¿Tiene dudas sobre la dependencia?",
+      "text": "Cuéntenos su caso y le informaremos sin compromiso."
+    }
+  }
+}

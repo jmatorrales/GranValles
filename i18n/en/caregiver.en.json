@@ -1,0 +1,43 @@
+{
+  "caregiver": {
+    "title": "Caregiver service",
+    "subtitle": "Professional, qualified care so that everyone can enjoy greater comfort and quality of life.",
+    "intro": {
+      "title": "Who is it for?",
+      "audience": "The caregiver/assistant service is aimed at people with anything from moderate dependency to severe dependency, who need professional, qualified staff for their daily care.",
+      "goal": "Our main goal is for people to enjoy greater comfort and quality of life, whatever their level of dependency."
+    },
+    "tasks": {
+      "title": "What does the caregiver do?",
+      "items": {
+        "autonomy": { "title": "Autonomy and self-esteem", "text": "Helps maintain the highest possible level of autonomy and self-esteem." },
+        "companionship": { "title": "Attention and companionship", "text": "Looking after the person, going for walks, keeping company, accompanying them to medical appointments, etc." },
+        "stimulation": { "title": "Cognitive stimulation", "text": "Helps with basic stimulation exercises to slow cognitive decline, when needed." },
+        "hygiene": { "title": "Personal hygiene", "text": "Bed bath or shower, changing clothes and incontinence pads, shaving, hair washing and styling, mouth and lip hygiene, skin care and pressure ulcer prevention." },
+        "mobility": { "title": "Mobility support", "text": "Getting up and into bed, changes of position and location, and help moving around the home." },
+        "nutrition": { "title": "Meals and medication", "text": "Help with eating and with taking medication, making sure it is taken correctly (always with a medical prescription)." },
+        "home": { "title": "Household support", "text": "Help with household tasks, shopping and meal preparation, with menus adapted to the person's dietary needs." },
+        "hospital": { "title": "Hospitals and care homes", "text": "Travels to the hospital or care home to cover needs that the institution's basic service cannot: walks, company or anything else required." }
+      }
+    },
+    "schedules": {
+      "title": "Types of working schedule",
+      "intro": "We adapt to every need. Choose the arrangement that best suits your situation:"
+    },
+    "hourly": {
+      "title": "How does the hourly elderly care service work?",
+      "items": {
+        "minimum": { "title": "From 2 hours a day", "text": "Service from 2 hours a day, 5 days a week." },
+        "followup": { "title": "Personalised follow-up", "text": "With psychologists, occupational therapists and social workers." },
+        "admin": { "title": "Administration included", "text": "We take care of hiring, Social Security registration, payroll, etc." },
+        "professional": { "title": "The most suitable professional", "text": "We select the professional who best fits each case." },
+        "technology": { "title": "Constantly evolving technology", "text": "We use technology that is constantly evolving." },
+        "assessment": { "title": "Comprehensive assessment and IWP", "text": "We carry out a comprehensive assessment and draw up an Individual Work Plan (IWP)." }
+      }
+    },
+    "cta": {
+      "title": "We understand your needs",
+      "text": "Tell us about your case and we will propose the solution that suits you best."
+    }
+  }
+}

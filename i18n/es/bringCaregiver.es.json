@@ -1,0 +1,31 @@
+{
+  "bringCaregiver": {
+    "title": "Trae a tu cuidador/a",
+    "subtitle": "¿Ya tiene cuidadora o está a punto de contratarla? Nos encargamos de que todo esté en regla.",
+    "intro": "El servicio «Trae a tu cuidadora» está pensado para las personas que ya tienen una cuidadora en casa, o que están a punto de contratarla por su cuenta, y desean contar con el asesoramiento de una empresa experta.",
+    "forWho": {
+      "title": "¿Para quién es este servicio?",
+      "items": {
+        "has": { "title": "Ya tiene una cuidadora en casa", "text": "Regularizamos su contrato y nos ocupamos de los trámites legales para que todo esté en orden." },
+        "hiring": { "title": "Está a punto de contratar una por su cuenta", "text": "Le asesoramos desde el principio, con todos los aspectos legales tenidos en cuenta." }
+      }
+    },
+    "services": {
+      "title": "Le ayudamos con todo",
+      "items": {
+        "legal": { "title": "Aspectos legales cubiertos", "text": "Tenemos en cuenta todos los aspectos legales de la contratación." },
+        "contract": { "title": "Regularización del contrato", "text": "Formalizamos el contrato de su cuidadora para que todo esté en regla." },
+        "procedures": { "title": "Trámites legales", "text": "Nos ocupamos de las gestiones para que usted no tenga que hacerlas." },
+        "support": { "title": "Asesoramiento experto", "text": "Cuenta con el respaldo de una empresa especializada en el cuidado de personas mayores." }
+      }
+    },
+    "support": {
+      "title": "Tranquilidad y acompañamiento",
+      "text": "Con «Trae a tu cuidadora» cuenta con el acompañamiento y el seguimiento de profesionales y especialistas sociosanitarios."
+    },
+    "cta": {
+      "title": "¿Quiere regularizar a su cuidadora?",
+      "text": "Cuéntenos su situación y le asesoraremos sin compromiso."
+    }
+  }
+}

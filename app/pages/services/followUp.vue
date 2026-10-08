@@ -22,7 +22,7 @@ const groups = [
     <!-- BANNER -->
     <section class="relative isolate flex min-h-[18rem] items-center overflow-hidden md:min-h-[26rem]">
       <NuxtImg
-        src="/img/Seguimiento_bg.jpg"
+        src="/img/seguimiento_bg.png"
         alt=""
         aria-hidden="true"
         width="1920"
@@ -90,8 +90,8 @@ const groups = [
         </div>
 
         <NuxtImg
-          src="/img/seguimiento.jpg"
-          alt=""
+          src="/img/seguimiento_y_suplencia.jpg"
+          alt="Seguimiento y suplencia"
           width="800"
           height="1000"
           loading="lazy"
