@@ -60,7 +60,7 @@ onBeforeUnmount(() =>
       </NuxtLinkLocale>
 
       <!-- ===== MENÚ ESCRITORIO (≥ lg) ===== -->
-      <div class="hidden lg:flex items-center gap-6 xl:gap-10">
+      <div class="hidden lg:flex items-center gap-6 xl:gap-10 text-lg font-semibold text-blue-900">
         <!-- Home -->
         <NuxtLinkLocale to="/" class="hover:text-blue-600 transition-colors">{{
           $t("nav.home")
@@ -114,7 +114,7 @@ onBeforeUnmount(() =>
 
         <!-- Email y teléfono -->
         <div
-          class="border-1 border-blue-600 text-blue-600 px-4 py-2 rounded flex flex-col"
+          class="border-1 border-blue-600 text-blue-600 px-4 py-2 rounded flex flex-col font-semibold"
         >
           <a href="mailto:info@granvalles.es" class="flex gap-3 items-center">
             <Mail class="w-4 h-4" /> info@granvalles.es

@@ -1,8 +1,40 @@
 <script setup>
 import ContactForm from "~/components/home/ContactForm.vue";
-const { t } = useI18n()
+const { t, tm, rt } = useI18n()
+
+const offices = computed(() =>
+  tm('footer.offices.items').map((o) => ({
+    name: rt(o.name),
+    address: o.address ? rt(o.address) : null,
+    maps: o.maps ? rt(o.maps) : null,
+  }))
+)
 </script>
 
 <template>
   <ContactForm />
+
+  <section class="mx-auto max-w-6xl px-4 py-12">
+    <h2 class="mb-6 text-2xl font-semibold">
+      {{ t('footer.offices.title') }}
+    </h2>
+
+    <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <li v-for="o in offices" :key="o.name" class="rounded-xl border p-4">
+        <h3 class="font-semibold">{{ o.name }}</h3>
+
+        <template v-if="o.address">
+          <p class="mt-1">{{ o.address }}</p>
+          <a
+            :href="o.maps"
+            target="_blank"
+            rel="noopener"
+            class="mt-2 inline-block underline"
+          >
+            {{ t('footer.offices.viewMap') }}
+          </a>
+        </template>
+      </li>
+    </ul>
+  </section>
 </template>

@@ -69,7 +69,7 @@ export default defineNuxtConfig({
           "es/services.es.json",
           "es/advice.es.json",
           "es/staffSelection.es.json",
-          "caregiver.es.json",
+          "es/caregiver.es.json",
           "es/followUp.es.json",
           "es/dependency.es.json",
           "es/bringCaregiver.es.json",

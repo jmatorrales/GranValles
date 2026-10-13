@@ -1,6 +1,6 @@
 <template>
   <!-- Sección principal del formulario -->
-  <div class="w-full py-0 md:py-4 bg-blue-700">
+  <div class="w-full py-0 md:py-4 bg-blue-700/80">
     <p class="text-center text-white text-3xl font-bold md:text-4xl p-4 md:p-8">
       {{ $t("home.form.title") }}
     </p>

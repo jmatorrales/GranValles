@@ -22,7 +22,7 @@
     >
       <!-- aspect-ratio fijo en móvil/tablet para que la imagen tenga altura predecible -->
       <NuxtImg
-        src="/img/cuidador_1.jpg"
+        src="/img/cuidador_1.png"
         alt="Cuidador acompañando a una persona mayor en su domicilio"
         width="1920"
         height="1280"

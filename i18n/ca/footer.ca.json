@@ -4,6 +4,7 @@
     "rights": "Tots els drets reservats.",
     "offices": {
       "title": "Les nostres oficines",
+      "viewMap": "Veure en Google Maps",
       "items": [
         {
           "name": "Sabadell",
