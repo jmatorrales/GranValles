@@ -29,13 +29,12 @@
         {
           "name": "Sant Cugat",
           "address": "Avinguda Cerdanyola, s/n, Sant Cugat del Vallès",
-          "maps": "https://maps.app.goo.gl/S3Mfkncq6pPZH1eq9"
+          "alert": "(Es requereix cita prèvia)"
         },
-        { "name": "Cerdanyola" },
         {
           "name": "Terrassa",
           "address": "Carrer de Galileu, s/n, Terrassa",
-          "maps": "https://maps.app.goo.gl/WDEWyoMhHRZUhtcH8"
+          "alert": "(Es requereix cita prèvia)"
         }
       ]
     },
