@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     head: {
       title: "Gran Vallès | Cuidadores a domicilio en Barcelona",
       meta: [
+        { name: "author", content: "https://github.com/jmatorrales" },
         {
           name: "description",
           content:
