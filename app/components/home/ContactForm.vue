@@ -6,7 +6,6 @@
     </p>
 
     <!-- Contenedores individuales (Formulario / num telefono) -->
-    <!-- En móvil: teléfono primero, formulario después. Sin padding ni gap en móvil para ocupar todo el ancho -->
     <div
       class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10 p-0 md:p-6 md:py-20"
     >
@@ -87,6 +86,18 @@
               </label>
             </div>
           </div>
+
+          <!-- Honeypot anti-spam: oculto para personas, los bots lo rellenan -->
+          <input
+            v-model="form.website"
+            type="text"
+            name="website"
+            tabindex="-1"
+            autocomplete="off"
+            class="hidden"
+            aria-hidden="true"
+          />
+
           <!-- checkbox privacidad -->
           <label class="flex gap-3">
             <input
@@ -107,11 +118,28 @@
               <strong class="text-red-500">*</strong>
             </span>
           </label>
+
+          <!-- Mensaje de éxito / error (se anuncia a lectores de pantalla) -->
+          <p
+            v-if="enviado"
+            role="status"
+            class="rounded-lg bg-green-100 text-green-800 px-4 py-2 text-center font-semibold"
+          >
+            ✓ {{ $t("home.form.success") }}
+          </p>
+          <p
+            v-if="error"
+            role="alert"
+            class="rounded-lg bg-red-100 text-red-800 px-4 py-2 text-center font-semibold"
+          >
+            {{ $t("home.form.error") }}
+          </p>
+
           <!-- Btn enviar -->
           <button
             type="submit"
             :disabled="enviando"
-            class="p-2 rounded-lg bg-blue-800 text-white"
+            class="p-2 rounded-lg bg-blue-800 text-white disabled:opacity-60"
           >
             {{ enviando ? $t("home.form.sending") : $t("home.form.send") }}
           </button>
@@ -122,25 +150,58 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig();
+
 const form = reactive({
   nombre: "",
   phone: "",
   email: "",
   comments: "",
+  condiciones: false,
+  website: "", // honeypot
 });
 
 const enviando = ref(false);
-const enviado = ref(false); // se usa como flag interno, pero no se muestra ningún mensaje de éxito en el template
+const enviado = ref(false); // true = muestra el mensaje de éxito
+const error = ref(false);
+
+let timer = null;
 
 async function sendForm() {
   enviando.value = true;
+  enviado.value = false;
+  error.value = false;
+  clearTimeout(timer);
+
   try {
-    await $fetch("/api/form", { method: "POST", body: form });
+    // Apunta al PHP del hosting (URL configurable en nuxt.config / .env)
+    const res = await $fetch(config.public.formEndpoint, {
+      method: "POST",
+      body: form,
+    });
+
+    if (!res?.ok) throw new Error(res?.error || "Error desconocido");
+
     enviado.value = true;
+
+    // Vaciar el formulario
+    form.nombre = "";
+    form.phone = "";
+    form.email = "";
+    form.comments = "";
+    form.condiciones = false;
+    form.website = "";
+
+    // El mensaje desaparece a los 6 s
+    timer = setTimeout(() => (enviado.value = false), 6000);
   } catch (e) {
     console.error(e);
+    error.value = true;
   } finally {
+    // El botón vuelve a "Enviar" una vez mostrado el resultado
     enviando.value = false;
   }
 }
+
+onBeforeUnmount(() => clearTimeout(timer));
 </script>
