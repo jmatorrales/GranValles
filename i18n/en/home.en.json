@@ -11,7 +11,9 @@
       "privacy": "I accept the {link}",
       "privacyLink": "privacy policy",
       "send": "Send",
-      "sending": "Sending..."
+      "sending": "Sending...",
+      "success": "Message sent successfully. We'll be in touch soon.",
+      "error": "Unable to send the message. Please try again or give us a call."
     },
     "infoOffice": {
       "callToAction": "Prefer to talk to us? We'd be happy to help",

@@ -11,7 +11,9 @@
       "privacy": "Acepto la {link}",
       "privacyLink": "política de privacidad",
       "send": "Enviar",
-      "sending": "Enviando..."
+      "sending": "Enviando...",
+      "success": "Mensaje enviado correctamente. Te contactaremos pronto.",
+      "error": "No se pudo enviar el mensaje. Inténtalo de nuevo o llámanos."
     },
     "infoOffice": {
       "callToAction": "¿Prefieres hablar con nosotros? Te atendemos encantados",

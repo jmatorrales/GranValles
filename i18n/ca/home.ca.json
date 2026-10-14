@@ -11,7 +11,9 @@
       "privacy": "Acepto la {link}",
       "privacyLink": "politica de privadesa",
       "send": "Enviar",
-      "sending": "Enviant..."
+      "sending": "Enviant...",
+      "success": "Missatge enviat correctament. Ens posarem en contacte aviat.",
+      "error": "Impossible d'enviar el missatge. Torni-ho a provar o truqui'ns."
     },
     "infoOffice": {
       "callToAction": "Prefereixes parlar amb nosaltres? T'atenem encantats",
