@@ -55,7 +55,7 @@ onBeforeUnmount(() =>
       <!-- Logo (escritorio y móvil) -->
       <NuxtLinkLocale
         to="/"
-        class="shrink-0 w-40 sm:w-48 md:w-56 lg:w-72 xl:w-[28rem]"
+        class="shrink-0 w-56 sm:w-48 md:w-56 lg:w-72 xl:w-[28rem]"
         @click="closeMobile"
       >
         <img
