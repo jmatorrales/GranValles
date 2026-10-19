@@ -7,7 +7,6 @@ const offices = computed(() =>
     name: rt(o.name),
     address: o.address ? rt(o.address) : null,
     maps: o.maps ? rt(o.maps) : null,
-    alert: o.alert ? rt(o.alert) : null,
   }))
 )
 </script>
@@ -16,19 +15,19 @@ const offices = computed(() =>
   <ContactForm />
 
   <section class="mx-auto max-w-6xl px-4 py-12">
-    <h2 class="mb-6 text-2xl font-semibold">
+    <h2 class="text-2xl font-semibold">
       {{ t('footer.offices.title') }}
     </h2>
+
+    <p class="mb-6 mt-2 text-sm font-medium text-amber-600">
+      {{ t('footer.offices.appointmentNotice') }}
+    </p>
 
     <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       <li v-for="o in offices" :key="o.name" class="rounded-xl border p-4">
         <h3 class="font-semibold">{{ o.name }}</h3>
 
         <p v-if="o.address" class="mt-1">{{ o.address }}</p>
-
-        <p v-if="o.alert" class="mt-1 text-sm font-medium text-amber-600">
-          {{ o.alert }}
-        </p>
 
         <a
           v-if="o.maps"

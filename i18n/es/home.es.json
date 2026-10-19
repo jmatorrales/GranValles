@@ -1,6 +1,7 @@
 {
   "home": {
-    "welcomeMessage": "20 años cuidando de \nnuestros mayores en casa",
+    "welcomeHighlight": "20 Años",
+    "welcomeMessage": "cuidando de nuestros mayores en casa",
     "welcomeSubtitle": "En Gran Valles somos especialistas en la selección de auxiliares de ayuda a domicilio.",
     "form": {
       "title": "Solicita información",

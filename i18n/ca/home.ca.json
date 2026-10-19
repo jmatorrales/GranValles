@@ -1,6 +1,7 @@
 {
   "home": {
-    "welcomeMessage": "20 anys cuidant\ndels avis a casa",
+    "welcomeHighlight": "20 anys",
+    "welcomeMessage": "cuidant dels avis a casa",
     "welcomeSubtitle": "A Gran Valles som especialistes en la selecció d'auxiliars a domicili.",
     "form": {
       "title": "Sol·licita informació",
@@ -46,7 +47,7 @@
       }
     },
     "partners": {
-    "title": "Col·laboradors:"
-  }
+      "title": "Col·laboradors:"
+    }
   }
 }

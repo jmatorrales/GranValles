@@ -5,6 +5,7 @@
     "offices": {
       "title": "Les nostres oficines",
       "viewMap": "Veure en Google Maps",
+      "appointmentNotice": "Es requereix cita prèvia",
       "items": [
         {
           "name": "Sabadell",
@@ -28,13 +29,11 @@
         },
         {
           "name": "Sant Cugat",
-          "address": "Avinguda Cerdanyola, s/n, Sant Cugat del Vallès",
-          "alert": "(Es requereix cita prèvia)"
+          "address": "Avinguda Cerdanyola, s/n, Sant Cugat del Vallès"
         },
         {
           "name": "Terrassa",
-          "address": "Carrer de Galileu, s/n, Terrassa",
-          "alert": "(Es requereix cita prèvia)"
+          "address": "Carrer de Galileu, s/n, Terrassa"
         }
       ]
     },

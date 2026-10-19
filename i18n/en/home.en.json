@@ -1,6 +1,7 @@
 {
   "home": {
-    "welcomeMessage": "20 Years Caring for \nOlder Adults at Home",
+    "welcomeHighlight": "20 Years",
+    "welcomeMessage": "Caring for Older Adults at Home",
     "welcomeSubtitle": "At Gran Valles, we specialize in the recruitment of home care assistants.",
     "form": {
       "title": "Request information",
@@ -46,7 +47,7 @@
       }
     },
     "partners": {
-    "title": "Partners:"
+      "title": "Partners:"
     }
   }
 }

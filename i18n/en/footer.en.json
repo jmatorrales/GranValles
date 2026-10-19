@@ -5,6 +5,7 @@
     "offices": {
       "title": "Our offices",
       "viewMap": "View on Google Maps",
+      "appointmentNotice": "An appointment is required",
       "items": [
         {
           "name": "Sabadell",
@@ -28,13 +29,11 @@
         },
         {
           "name": "Sant Cugat",
-          "address": "Avinguda Cerdanyola, s/n, Sant Cugat del Vallès",
-          "alert": "(An appointment is required)"
+          "address": "Avinguda Cerdanyola, s/n, Sant Cugat del Vallès"
         },
         {
           "name": "Terrassa",
-          "address": "Carrer de Galileu, s/n, Terrassa",
-          "alert": "(An appointment is required)"
+          "address": "Carrer de Galileu, s/n, Terrassa"
         }
       ]
     },

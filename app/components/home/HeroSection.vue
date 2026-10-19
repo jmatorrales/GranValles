@@ -6,6 +6,9 @@
     <!-- Bloque de texto (solo visible en desktop, en móvil el texto va sobre la imagen) -->
     <div class="hidden md:flex w-1/3 flex-col gap-2">
       <h1 class="whitespace-pre-line text-5xl font-bold text-indigo-950">
+        <span class="block text-8xl text-blue-800 leading-none pb-4">{{
+          $t("home.welcomeHighlight")
+        }}</span>
         {{ $t("home.welcomeMessage") }}
       </h1>
       <div class="flex items-center gap-4">
@@ -32,7 +35,9 @@
       <div
         class="md:hidden absolute inset-0 flex flex-col items-center justify-center gap-3 text-center px-4 sm:px-6 bg-black/40"
       >
-        <h1 class="whitespace-pre-line text-2xl sm:text-3xl font-bold text-white">
+        <h1
+          class="whitespace-pre-line text-2xl sm:text-3xl font-bold text-white"
+        >
           {{ $t("home.welcomeMessage") }}
         </h1>
         <h2 class="text-base sm:text-lg text-gray-200">
@@ -43,6 +48,4 @@
   </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
