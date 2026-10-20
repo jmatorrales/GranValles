@@ -38,6 +38,9 @@
         <h1
           class="whitespace-pre-line text-2xl sm:text-3xl font-bold text-white"
         >
+          <span class="block text-6xl text-blue-900 leading-none pb-2">{{
+            $t("home.welcomeHighlight")
+          }}</span>
           {{ $t("home.welcomeMessage") }}
         </h1>
         <h2 class="text-base sm:text-lg text-gray-200">
